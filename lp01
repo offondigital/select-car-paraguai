@@ -1,0 +1,1866 @@
+<html lang="es-PY" data-acabamento="premium" class="vm-tx vm-im vm-fr" style="--vm-dur: 720ms; --vm-f: 1; --vm-passo: 80ms;"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Negocio local em Cidade Del Leste | SELECT MOTORS - Premium Cars</title>
+<meta name="description" content="SELECT MOTORS - Premium Cars em Cidade Del Leste. SELECT MOTORS - Premium Cars valora lo que necesitas, te da el precio antes de empezar y entrega en el plazo acordado. Sin sorpresas al final.">
+
+<!-- PRÉVIA AO COMPARTILHAR
+     Sem estas linhas, o link colado no WhatsApp chega como um
+     retângulo cinza. Com elas, chega com a foto de capa, o nome do
+     negócio e a frase de venda — que é o que faz o dono abrir. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Negocio local em Cidade Del Leste | SELECT MOTORS - Premium Cars">
+<meta property="og:description" content="SELECT MOTORS - Premium Cars valora lo que necesitas, te da el precio antes de empezar y entrega en el plazo acordado. Sin sorpresas al final.">
+<meta property="og:image" content="https://cdowco9uebrdby23.public.blob.vercel-storage.com/fotos/servicos-locais/7190889-1600.webp">
+<meta property="og:locale" content="es_PY">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Ícone da aba: a inicial do negócio na cor dele, desenhada em SVG
+     dentro do próprio arquivo. Um .ico separado quebraria a promessa
+     de arquivo único e sumiria assim que o cliente movesse o site. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%3E%3Crect%20width%3D'64'%20height%3D'64'%20rx%3D'14'%20fill%3D'%2314161A'%2F%3E%3Ctext%20x%3D'32'%20y%3D'44'%20font-size%3D'34'%20font-family%3D'Georgia%2Cserif'%20font-weight%3D'bold'%20fill%3D'%23fff'%20text-anchor%3D'middle'%3ES%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  :root{
+    --marca:#14161A;
+    --marca-escura:#0d0e11;
+    --marca-fraca:#e8e8e8;
+    /* A COR DA MARCA QUANDO ELA VIRA TEXTO SOBRE O PAPEL.
+       Num tema claro é a marca mesma. Num tema escuro a marca do
+       cliente pode ser um azul-marinho: legível sobre branco e
+       invisível sobre carvão. Foi o que aconteceu no site de um
+       advogado — a linha "para quem é" sumia dentro do card escuro.
+       Nos blocos que já nascem escuros (topo, números, história) o
+       site sempre usou --marca-fraca; isto estende a mesma ideia ao
+       resto da página quando o papel inteiro escurece. */
+    /* Deixou de ser um "se escuro, clareia" e passou a ser medido:
+       marca cinzenta sobre card cinzento passava no teste antigo e
+       sumia na tela. Ver lib/site/contraste.ts. */
+    --marca-texto:#e8e8e8;
+    --tinta:#F59F00;
+    /* AS TINTAS MEDIDAS — ver lib/site/contraste.ts.
+       Toda superfície pintada com --marca ou --tinta lê a sua daqui,
+       em vez de cravar branco e torcer para o fundo ser escuro. */
+    --sobre-marca:#ffffff;
+    --sobre-tinta:#221600;
+    --realce-tinta:#08080a;
+    /* O botão da chamada final é o inverso da faixa: fundo na tinta
+       que se lê sobre a marca, texto na marca — a não ser que a marca
+       não contraste com esse fundo, e aí cai na tinta legível. */
+    --btn-invertido:#ffffff;
+    --btn-invertido-texto:#14161A;
+    --fundo:#0c0d10;--suave:#14161b;--cartao:#181a20;--texto:#f2f3f5;--apagado:#9aa0ab;--linha:#262a33;--raio:18px;
+    --dock:78px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  /* MOBILE PRIMEIRO. Tudo fora de @media é a tela de 320–759px; o
+     bloco min-width:760 restaura o desktop. O celular ganha o rodapé
+     fixo (.dock) e o body reserva o espaço dele. */
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--texto);background:var(--fundo);line-height:1.6;font-size:16px;padding-bottom:var(--dock);overflow-x:clip}
+  h1,h2,h3{font-family:'Archivo',system-ui,sans-serif;line-height:1.1;letter-spacing:-.025em;text-wrap:balance}
+  img{max-width:100%;display:block}
+  .wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 18px}
+  .tag{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--marca-texto);margin-bottom:12px}
+  .tag::before{content:"";width:18px;height:2px;border-radius:2px;background:var(--marca-texto);flex:0 0 auto}
+  .intro{color:var(--apagado);max-width:680px;margin-top:12px;font-size:1rem;line-height:1.6;text-wrap:pretty}
+  section{padding:60px 0}
+  h2{font-size:clamp(1.8rem,7.4vw,2.3rem)}
+
+  header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--fundo) 88%,transparent);backdrop-filter:blur(12px) saturate(1.2);-webkit-backdrop-filter:blur(12px) saturate(1.2);border-bottom:1px solid var(--linha)}
+  .barra{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+  .marca{display:flex;align-items:center;gap:10px;min-width:0;text-decoration:none;flex:1 1 auto}
+  /* Altura fixa e largura livre: logo horizontal ou quadrada cabe sem
+     esmagar. object-fit:contain para nunca cortar a marca do cliente. */
+  .logo-img{height:32px;width:auto;max-width:120px;object-fit:contain;flex:0 0 auto}
+  .logo{font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:var(--texto);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;letter-spacing:-.01em}
+  nav{display:none;gap:24px}
+  nav a{color:var(--apagado);text-decoration:none;font-size:14px;font-weight:500}
+  nav a:hover{color:var(--marca-texto)}
+  header .btn{min-height:40px;padding:0 16px;font-size:13px;flex:0 0 auto;box-shadow:none}
+  /* O botão carrega a cor escolhida pelo cliente, com um degradê leve e
+     sombra na própria cor — é o que faz ele parecer clicável em vez de
+     um retângulo chapado. 52px de altura: dedo, não cursor. */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    background:linear-gradient(180deg,var(--marca),var(--marca-escura));
+    color:var(--sobre-marca);text-decoration:none;font-weight:700;min-height:52px;padding:14px 24px;border-radius:999px;
+    font-size:15px;letter-spacing:.01em;white-space:nowrap;transition:transform .2s,box-shadow .2s;
+    box-shadow:0 12px 28px -12px var(--marca)}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 16px 32px -12px var(--marca)}
+  .btn:active{transform:translateY(0) scale(.99)}
+  .btn2{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.4);box-shadow:none;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+  .btn2:hover{background:rgba(255,255,255,.22);box-shadow:none}
+  .chamada .btn{background:var(--btn-invertido);color:var(--btn-invertido-texto);box-shadow:0 10px 26px -12px rgba(0,0,0,.5)}
+
+  /* TOPO: no celular a foto ocupa a tela e o texto assenta na base,
+     alinhado à esquerda — é como os sites de vitrine abrem. O véu
+     escurece de baixo para cima para o título ler sobre qualquer foto. */
+  .hero{position:relative;color:#fff;text-align:left;display:flex;align-items:flex-end;min-height:min(84svh,760px);padding:120px 0 40px}
+  /* A COR FICA DEBAIXO DA FOTO, SEMPRE.
+     Endereço de foto morre: o cliente apaga a imagem do Drive, o
+     Google troca o link da foto do Maps, o site de onde ela veio sai
+     do ar. Quando isso acontece com a capa, o topo virava um retângulo
+     vazio com o fundo da página aparecendo — foi o "fundo cinza sem
+     foto" relatado em 17/09/2026. Com a cor no mesmo atalho, a foto
+     que não abre deixa para trás o topo em cor sólida, que é o mesmo
+     resultado de quem nunca pôs foto nenhuma. */
+  .hero::before{content:"";position:absolute;inset:0;background:var(--tinta) url('https://cdowco9uebrdby23.public.blob.vercel-storage.com/fotos/servicos-locais/7190889-1600.webp') 50% 50% / cover}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.30) 0%,rgba(0,0,0,.28) 35%,rgba(0,0,0,.84) 100%)}
+  .hero .wrap{position:relative;z-index:2}
+  .hero .tag{color:#fff;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 12px 7px 10px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);margin-bottom:16px}
+  .hero .tag::before{width:6px;height:6px;border-radius:50%;background:var(--marca-fraca)}
+  .hero h1{font-size:clamp(2.25rem,9.6vw,3.6rem);line-height:1.02;letter-spacing:-.035em;margin-bottom:14px;max-width:900px}
+  .hero p.sub{font-size:1.02rem;line-height:1.55;max-width:36ch;margin:0 0 22px;opacity:.9;text-wrap:pretty}
+  .acoes{display:flex;flex-direction:column;gap:10px}
+  .acoes .btn{width:100%}
+  .fatos{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+  .fatos span{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);font-size:.8rem;font-weight:500;line-height:1.2}
+  .fatos span::before{content:"✓";color:var(--marca-fraca);font-weight:800;font-size:.8rem}
+
+  /* NÚMEROS: uma grade 2×2 com fios finos, cada valor grande na cor
+     clara da marca. */
+  .numeros{background:var(--tinta);color:var(--sobre-tinta);padding:0}
+  /* Uma faixa só, os quatro lado a lado — também no celular (decisão
+     do dono, 16/09). Valor em clamp para "+1.500" caber em 320px. */
+  .grade-n{display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:center}
+  .n{padding:22px 4px 18px;border-left:1px solid rgba(255,255,255,.1)}
+  .n:first-child{border-left:0}
+  .n b{font-family:'Archivo',sans-serif;display:block;font-size:clamp(1.25rem,5.6vw,2.1rem);font-weight:800;line-height:1;letter-spacing:-.03em;color:var(--realce-tinta);font-variant-numeric:tabular-nums}
+  .n span{display:block;margin-top:8px;font-size:.56rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;opacity:.62;line-height:1.25;text-wrap:balance}
+
+  .grade{display:grid;gap:16px;grid-template-columns:1fr;margin-top:30px}
+  .item{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);overflow:hidden;transition:.2s;box-shadow:0 14px 34px -26px rgba(0,0,0,.45)}
+  .item:hover{transform:translateY(-3px);box-shadow:0 18px 44px -24px rgba(0,0,0,.45)}
+  .item img{width:100%;height:212px;object-fit:cover}
+  .item-txt{padding:18px 18px 22px}
+  .item h3{font-size:1.2rem;margin-bottom:6px}
+  .item .pq{color:var(--marca-texto);font-size:.86rem;font-weight:600;margin-bottom:8px;line-height:1.45}
+  .item p{color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .dif{background:var(--suave)}
+  .grade-d{display:grid;gap:12px;grid-template-columns:1fr;margin-top:30px;counter-reset:dif}
+  .d{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:22px 20px}
+  .d::before{counter-increment:dif;content:counter(dif,decimal-leading-zero);display:block;font-size:.72rem;font-weight:700;letter-spacing:.16em;color:var(--marca-texto);margin-bottom:10px}
+  .d h3{font-size:1.1rem;margin-bottom:6px}
+  .d p{color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .grade-p{display:grid;gap:14px;grid-template-columns:1fr;margin-top:30px;counter-reset:passo}
+  .p{position:relative;padding:4px 0 4px 56px}
+  .p::before{counter-increment:passo;content:counter(passo);position:absolute;left:0;top:2px;width:40px;height:40px;border-radius:50%;background:var(--marca);color:var(--sobre-marca);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem;font-family:'Archivo',sans-serif}
+  .p h3{font-size:1.1rem;margin-bottom:5px}
+  .p p{color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .grid-fotos{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:26px}
+  .grid-fotos img{width:100%;height:150px;object-fit:cover;border-radius:14px}
+  .grid-fotos img:first-child{grid-column:span 2;height:230px}
+
+  .planos{background:var(--suave)}
+  .grade-pl{display:grid;gap:14px;grid-template-columns:1fr;margin-top:30px}
+  .pl{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:24px 20px;display:flex;flex-direction:column}
+  .pl h3{font-size:1.25rem;margin-bottom:8px;color:var(--marca-texto)}
+  .pl .res{color:var(--apagado);font-size:.93rem;margin-bottom:16px;line-height:1.55}
+  .pl ul{list-style:none;margin-bottom:20px}
+  .pl li{color:var(--texto);font-size:.92rem;padding:9px 0 9px 24px;position:relative;border-top:1px solid var(--linha);line-height:1.45}
+  .pl li:first-child{border-top:0}
+  .pl li::before{content:"✓";position:absolute;left:0;top:9px;color:var(--marca-texto);font-weight:800}
+  .btn-pl{margin-top:auto;width:100%}
+
+  .faq{background:var(--suave)}
+  .perguntas{max-width:760px;margin:26px auto 0;display:grid;gap:10px}
+  details{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:0 18px}
+  summary{cursor:pointer;font-weight:600;font-size:1rem;list-style:none;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:14px;line-height:1.35}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--marca-texto);font-weight:700;font-size:1.3rem;flex:0 0 auto}
+  details[open] summary::after{content:"−"}
+  details p{margin:-4px 0 18px;color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .historia{background:var(--tinta);color:var(--sobre-tinta)}
+  .historia .tag{color:var(--realce-tinta)}
+  .historia .tag::before{background:var(--marca-fraca)}
+  .historia p{opacity:.84;max-width:760px;margin-top:14px;font-size:1.02rem;line-height:1.65}
+
+  .grade-dep{display:grid;gap:14px;grid-template-columns:1fr;margin-top:30px}
+  .dep{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:22px 20px}
+  .dep p{font-size:1.02rem;line-height:1.6;margin-bottom:16px}
+  .dep b{display:block;font-size:.9rem}
+  .dep span{color:var(--apagado);font-size:.8rem}
+
+  .mapa{margin-top:22px;border-radius:var(--raio);overflow:hidden;border:1px solid var(--linha)}
+  .mapa iframe{width:100%;height:260px;border:0;display:block}
+
+  .estrelas{color:#f5a623;letter-spacing:2px;margin-bottom:10px;font-size:.95rem}
+  .assina{display:flex;align-items:center;gap:10px}
+  .ini{width:38px;height:38px;border-radius:50%;background:var(--marca);color:var(--sobre-marca);display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0}
+  .dep em{display:block;font-style:normal;color:var(--apagado);font-size:.78rem}
+
+  .chamada{background:var(--marca);color:var(--sobre-marca);text-align:center;padding:64px 0}
+  .chamada h2{margin-bottom:10px}
+  .chamada p{opacity:.9;margin-bottom:24px;text-wrap:pretty}
+  .chamada .btn{background:var(--btn-invertido);color:var(--btn-invertido-texto);width:100%}
+
+  .contato .cols{display:grid;gap:12px;grid-template-columns:1fr;margin-top:26px}
+  .campo{border:1px solid var(--linha);border-radius:var(--raio);padding:18px 20px;background:var(--cartao)}
+  .campo h3{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--apagado);margin-bottom:6px;font-family:'Inter',sans-serif;font-weight:700}
+  .campo p,.campo a{color:var(--texto);font-size:1rem;text-decoration:none;font-weight:500}
+
+  footer{background:var(--tinta);color:color-mix(in srgb,var(--sobre-tinta) 62%,transparent);text-align:center;padding:30px 0;font-size:.84rem}
+
+  /* CONTATO SEMPRE À MÃO. No celular, uma barra fixa embaixo com o botão
+     inteiro (safe-area do iPhone respeitada) no lugar da pílula
+     flutuante, que cobria texto e botão dos cards. No desktop a pílula
+     volta e a barra some. */
+  .zap{display:none;position:fixed;right:18px;bottom:18px;z-index:30;background:#25d366;color:#fff;border-radius:999px;padding:14px 20px;font-weight:600;text-decoration:none;box-shadow:0 12px 30px -10px rgba(0,0,0,.5)}
+  .dock{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--fundo) 90%,transparent);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);border-top:1px solid var(--linha)}
+  .dock .btn{flex:1 1 auto;min-height:50px}
+  .dock .btn svg{width:18px;height:18px;flex:0 0 auto}
+
+  @media(min-width:760px){
+    body{padding-bottom:0}
+    .dock{display:none}
+    .zap{display:inline-flex}
+    nav{display:flex}
+    .logo{font-size:19px}
+    .logo-img{height:40px;max-width:180px}
+    .barra{height:68px}
+    header .btn{min-height:44px;padding:0 22px;font-size:14px}
+    section{padding:96px 0}
+    h2{font-size:clamp(1.8rem,3.6vw,2.4rem)}
+    .hero{text-align:center;display:block;min-height:0;padding:104px 0 88px}
+    .hero::after{background:linear-gradient(180deg,rgba(0,0,0,.42),rgba(0,0,0,.78))}
+    .hero h1{font-size:clamp(2.6rem,5.4vw,3.7rem);margin-inline:auto}
+    .hero p.sub{font-size:1.15rem;max-width:660px;margin:0 auto 28px}
+    .acoes{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:12px}
+    .acoes .btn{width:auto}
+    .fatos{justify-content:center;margin-top:30px}
+    .numeros{padding:48px 0}
+    .grade-n{grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+    .n{padding:0;border:0!important}
+    .n b{font-size:clamp(3.2rem,4vw,4.4rem)}
+    .n span{margin-top:10px;font-size:.72rem;letter-spacing:.12em}
+    .grade{grid-template-columns:repeat(3,1fr);gap:18px}
+    .item img{height:200px}
+    .grade-d{grid-template-columns:repeat(3,1fr);gap:16px}
+    .grade-p{grid-template-columns:repeat(3,1fr);gap:22px}
+    .p{padding:58px 0 0}
+    .p::before{top:0}
+    .grid-fotos{grid-template-columns:repeat(3,1fr);gap:12px}
+    .grid-fotos img,.grid-fotos img:first-child{height:220px;grid-column:auto}
+    .grade-dep{grid-template-columns:repeat(3,1fr);gap:16px}
+    .grade-pl{grid-template-columns:repeat(3,1fr);gap:16px}
+    .chamada{padding:96px 0}
+    .chamada .btn{width:auto}
+    .contato .cols{grid-template-columns:repeat(3,1fr);gap:16px}
+    .mapa iframe{height:300px}
+  }
+  @media(max-width:359px){
+    header .btn{padding:0 12px;font-size:12px}
+    .hero h1{font-size:2.05rem}
+  }
+
+  mark.dst{background:none;color:var(--dst,var(--marca));font-weight:inherit}
+  .hero mark.dst{color:var(--dst,var(--marca-fraca))}
+  .midia{margin:26px auto 0;max-width:920px;border-radius:var(--raio);overflow:hidden;background:var(--suave)}
+  .midia img,.midia video{width:100%;display:block}
+  .midia-video{position:relative;aspect-ratio:16/9}
+  .midia-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .midia figcaption{padding:10px 14px;font-size:.82rem;color:var(--apagado)}
+  .midia + .grade,.midia + .grade-d,.midia + .grade-p,.midia + .grade-pl{margin-top:26px}
+  .bloco-ctas{margin-top:26px;display:flex;flex-wrap:wrap;gap:12px}
+  section[data-estilo~="centrado"] .wrap{text-align:center}
+  section[data-estilo~="centrado"] .bloco-ctas{justify-content:center}
+  section[data-estilo~="a-direita"] .wrap{text-align:right}
+  section[data-estilo~="a-direita"] .bloco-ctas{justify-content:flex-end}
+  /* "ESQUERDA" PRECISA DE REGRA PRÓPRIA, e essa é a parte que não é
+     óbvia: no computador o motor já manda .hero com text-align:center.
+     Enquanto "esquerda" era só a ausência de classe, clicar nela não
+     mudava nada no computador — o alinhamento padrão do bloco vencia.
+     Pedir para mover o texto e ver a tela imóvel é o defeito que esta
+     linha corrige. */
+  section[data-estilo~="a-esquerda"] .wrap{text-align:left}
+  section[data-estilo~="a-esquerda"] .bloco-ctas{justify-content:flex-start}
+  /* ALINHAR O TEXTO DO TOPO NÃO É SÓ text-align.
+     O h1 e o subtítulo têm largura máxima própria (900px e 36ch) para
+     não virarem uma linha de ponta a ponta da tela. Sem mexer nas
+     margens, alinhar mudava o texto DENTRO de um bloco que continuava
+     no mesmo lugar — e a pessoa via quase nada acontecer. */
+  section.hero[data-estilo~="a-esquerda"] h1,
+  section.hero[data-estilo~="a-esquerda"] p.sub{margin-left:0;margin-right:auto}
+  section.hero[data-estilo~="a-esquerda"] .acoes,
+  section.hero[data-estilo~="a-esquerda"] .fatos{justify-content:flex-start}
+  section.hero[data-estilo~="centrado"] h1,
+  section.hero[data-estilo~="centrado"] p.sub{margin-left:auto;margin-right:auto}
+  section.hero[data-estilo~="centrado"] .acoes,
+  section.hero[data-estilo~="centrado"] .fatos{justify-content:center}
+  section.hero[data-estilo~="a-direita"] h1,
+  section.hero[data-estilo~="a-direita"] p.sub{margin-left:auto;margin-right:0}
+  section.hero[data-estilo~="a-direita"] .acoes,
+  section.hero[data-estilo~="a-direita"] .fatos{justify-content:flex-end}
+  /* ALTURA DO TEXTO NO TOPO.
+     No celular o topo já é uma coluna de 84svh com o texto assentado
+     na base — mover na vertical é trocar o align-items.
+
+     No computador o topo é um bloco com respiro em cima e embaixo:
+     não existe altura sobrando para o texto ocupar. Por isso a altura
+     só nasce QUANDO a pessoa escolhe uma posição — nenhum site que
+     nunca tocou neste controle muda de aparência por causa dele. */
+  section.hero[data-estilo~="v-topo"]{align-items:flex-start}
+  section.hero[data-estilo~="v-meio"]{align-items:center}
+  section.hero[data-estilo~="v-base"]{align-items:flex-end}
+  @media(min-width:760px){
+    section.hero[data-estilo~="v-topo"],
+    section.hero[data-estilo~="v-meio"],
+    section.hero[data-estilo~="v-base"]{display:flex;min-height:min(78svh,700px)}
+    section.hero[data-estilo~="v-topo"] .wrap,
+    section.hero[data-estilo~="v-meio"] .wrap,
+    section.hero[data-estilo~="v-base"] .wrap{width:100%}
+  }
+  section[data-estilo~="tit-pp"] h1,section[data-estilo~="tit-pp"] h2{font-size:1.4rem}
+  section[data-estilo~="tit-p"] h1,section[data-estilo~="tit-p"] h2{font-size:1.7rem}
+  section[data-estilo~="tit-m"] h1,section[data-estilo~="tit-m"] h2{font-size:2.1rem}
+  section[data-estilo~="tit-g"] h1,section[data-estilo~="tit-g"] h2{font-size:2.6rem}
+  section[data-estilo~="tit-xg"] h1,section[data-estilo~="tit-xg"] h2{font-size:3.2rem}
+  /* O topo é h1: sem esta linha o "XG" mudava as seções e deixava o
+     título do hero do mesmo tamanho. E os dois maiores encolhem no
+     celular, onde 3,2rem numa tela de 390px vira uma palavra por linha. */
+  section.hero[data-estilo~="tit-g"] h1{font-size:clamp(2.2rem,6vw,3.4rem)}
+  section.hero[data-estilo~="tit-xg"] h1{font-size:clamp(2.4rem,7vw,4.2rem)}
+  @media(max-width:700px){
+    section[data-estilo~="tit-g"] h2{font-size:2.1rem}
+    section[data-estilo~="tit-xg"] h2{font-size:2.4rem}
+  }
+  section[style*="--sec-fundo"]{background:var(--sec-fundo)!important}
+  /* Cor de texto do bloco: vale para tudo que está dentro dele —
+     título, parágrafo, card, pergunta. O :where mantém especificidade
+     zero, então a cor da marca no .tag e no .pq continua vencendo. */
+  section[style*="--sec-texto"]{color:var(--sec-texto)!important}
+  section[style*="--sec-texto"] :where(h1,h2,h3,p,li,summary,b,em,span:not(.tag):not(.pq):not(.preco)){color:inherit}
+  section[data-estilo~="esp-compacto"]{padding-top:36px!important;padding-bottom:36px!important}
+  section[data-estilo~="esp-amplo"]{padding-top:130px!important;padding-bottom:130px!important}
+  @media(max-width:700px){section[data-estilo~="esp-amplo"]{padding-top:96px!important;padding-bottom:96px!important}}
+  @media(min-width:900px){
+    section[style*="--sec-cols"] .grade,section[style*="--sec-cols"] .grade-d,section[style*="--sec-cols"] .grade-p,section[style*="--sec-cols"] .grade-pl{grid-template-columns:repeat(var(--sec-cols),1fr)!important}
+  }
+  .preco{display:inline-block;margin-top:10px;padding:5px 11px;border-radius:999px;background:var(--marca);color:#fff;font-weight:700;font-size:.85rem;letter-spacing:.01em}
+  .cta-pulsar{animation:cta-pulsar 2.2s ease-in-out infinite}
+  @keyframes cta-pulsar{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--marca) 45%,transparent)}50%{box-shadow:0 0 0 10px transparent}}
+  .cta-brilho{position:relative;overflow:hidden}
+  .cta-brilho::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-100%);animation:cta-brilho 2.6s ease-in-out infinite}
+  @keyframes cta-brilho{to{transform:translateX(100%)}}
+  @media (prefers-reduced-motion:reduce){.cta-pulsar,.cta-brilho::after{animation:none}}
+
+  /* ======================= ACABAMENTO PREMIUM ======================= */
+  /* Ver src/lib/site/premium.ts. Custo zero: é desenho, não IA. */
+
+  /* A MARCA. O monograma só existe aqui; sem o acabamento o cabeçalho
+     segue com o nome em texto, como sempre foi. */
+  html[data-acabamento="premium"] .monograma{height:34px;width:34px;flex:0 0 auto;border-radius:10px;box-shadow:0 6px 16px -8px rgb(0 0 0 / .45)}
+  html[data-acabamento="premium"] .logo{font-size:17px;font-weight:700;letter-spacing:-.02em}
+
+  /* MAIS AR. 60px era o ritmo de um site que cabe na tela; 76 é o de
+     um que quer ser lido. */
+  html[data-acabamento="premium"] section{padding:76px 0}
+
+  /* ESCALA. Título maior e mais fechado — a diferença entre um H2 de
+     painel e um H2 de capa de revista está quase toda no tracking. */
+  html[data-acabamento="premium"] h2{font-size:clamp(2rem,8.2vw,2.65rem);letter-spacing:-.038em}
+  html[data-acabamento="premium"] .hero h1{font-size:clamp(2.4rem,10.2vw,4rem);letter-spacing:-.042em;line-height:1}
+  html[data-acabamento="premium"] .intro{font-size:1.04rem;line-height:1.68;max-width:60ch}
+
+  /* ETIQUETAS em versalete espaçado, com o fio mais longo. É detalhe
+     de três pixels que o olho lê como cuidado. */
+  html[data-acabamento="premium"] .tag{font-size:10px;letter-spacing:.24em;gap:10px}
+  html[data-acabamento="premium"] .tag::before{width:28px;height:1px}
+  /* O topo mantém a etiqueta em pílula: lá ela assenta sobre foto, e
+     o fio comprido brigaria com a borda arredondada. */
+  html[data-acabamento="premium"] .hero .tag{letter-spacing:.18em}
+  html[data-acabamento="premium"] .hero .tag::before{width:6px;height:6px}
+
+  /* CARTÕES: contorno mais fino e sombra no lugar da borda dura. */
+  html[data-acabamento="premium"] .d,
+  html[data-acabamento="premium"] .pl{border-color:color-mix(in srgb,var(--linha) 55%,transparent);box-shadow:0 18px 44px -32px rgb(0 0 0 / .55)}
+
+  /* BOTÃO com um respiro a mais e letra espaçada. */
+  html[data-acabamento="premium"] .btn{letter-spacing:.02em;padding:15px 28px}
+
+  @media (min-width:760px){
+    html[data-acabamento="premium"] section{padding:104px 0}
+    html[data-acabamento="premium"] .monograma{height:38px;width:38px}
+    html[data-acabamento="premium"] .logo{font-size:19px}
+  }
+</style>
+<style id="valy-motion">
+/* :where() zera a especificidade do prefixo de propósito. MEDIDO: com
+   ".vm-tx .vm-tx-el.vm-in{transform:none}" a revelação vencia a seção
+   sticky no título do topo, e o título parava de crescer ao rolar.
+   Com :where, quem manda no hero é o motion que o embrulha; a
+   revelação continua cuidando do resto da página. */
+:where(.vm-tx) .vm-tx-el{opacity:0;transform:translateY(calc(18px * var(--vm-f,1)));transition:opacity var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1),transform var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1);transition-delay:var(--vm-d,0ms);will-change:opacity,transform}
+:where(.vm-tx) .vm-tx-el.vm-in{opacity:1;transform:none}
+/* Dentro do trilho sticky, o hero é do sticky: sem esconder nem
+   transformar por aqui. */
+.vm-st-trilho .vm-tx-el{opacity:1;transform:none;transition:none}
+/* A palavra: um span inline-block para o translateY funcionar. */
+.vm-tx .vm-tx-w{display:inline-block;opacity:0;transform:translateY(.45em);transition:opacity calc(var(--vm-dur,720ms) * .8) cubic-bezier(.22,1,.36,1),transform calc(var(--vm-dur,720ms) * .8) cubic-bezier(.22,1,.36,1);transition-delay:var(--vm-d,0ms)}
+.vm-tx .vm-in .vm-tx-w{opacity:1;transform:none}
+/* A etiqueta ganha um risco na cor do motion, que cresce ao entrar. */
+.vm-tx section > .wrap > .tag{position:relative;padding-left:18px}
+.vm-tx section > .wrap > .tag::before{content:"";position:absolute;left:0;top:50%;height:2px;width:0;background:var(--vm-cor,var(--marca));transition:width var(--vm-dur,720ms) ease .1s}
+.vm-tx section > .wrap > .tag.vm-in::before{width:12px}
+@media (prefers-reduced-motion:reduce){
+  .vm-tx .vm-tx-el,.vm-tx .vm-tx-w{opacity:1!important;transform:none!important;transition:none!important}
+  .vm-tx section > .wrap > .tag::before{width:12px}
+}
+
+
+.vm-im .vm-im-card{opacity:0;transform:translateY(calc(28px * var(--vm-f,1))) scale(.985);transition:opacity var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1),transform var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1);transition-delay:calc(var(--vm-i,0) * var(--vm-passo,80ms));will-change:opacity,transform}
+.vm-im .vm-im-card.vm-in{opacity:1;transform:none}
+/* A foto se revela de baixo para cima dentro da moldura. */
+.vm-im .vm-im-card img{clip-path:inset(100% 0 0 0);transition:clip-path calc(var(--vm-dur,720ms) * 1.1) cubic-bezier(.22,1,.36,1) calc(var(--vm-i,0) * var(--vm-passo,80ms) + 120ms),transform .5s cubic-bezier(.22,1,.36,1)}
+.vm-im .vm-im-card.vm-in img{clip-path:inset(0 0 0 0)}
+/* Reação ao mouse, só onde existe mouse. */
+.vm-im .item,.vm-im .d,.vm-im .p,.vm-im .pl,.vm-im .dep{transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+@media (hover:hover){
+  .vm-im .item:hover,.vm-im .d:hover,.vm-im .p:hover,.vm-im .pl:hover,.vm-im .dep:hover{transform:translateY(-3px);box-shadow:0 16px 36px -18px rgba(0,0,0,.35);border-color:color-mix(in srgb,var(--vm-cor,var(--marca)) 45%,transparent)}
+  .vm-im .item:hover img{transform:scale(1.04)}
+}
+@media (prefers-reduced-motion:reduce){
+  .vm-im .vm-im-card{opacity:1!important;transform:none!important;transition:none!important}
+  .vm-im .vm-im-card img{clip-path:none!important;transition:none!important}
+}
+
+
+.vm-fr .vm-fr-sec{position:relative;isolation:isolate;overflow-x:clip}
+.vm-fr .vm-fr-m{position:absolute;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(calc(46px * var(--vm-f,1)));opacity:calc(.55 * var(--vm-f,1));will-change:transform;width:56vw;max-width:680px;aspect-ratio:1}
+.vm-fr .vm-fr-m1{top:-22%;right:-16%;background:radial-gradient(circle,color-mix(in srgb,var(--vm-cor,var(--marca)) 30%,transparent) 0%,transparent 66%)}
+.vm-fr .vm-fr-m2{bottom:-26%;left:-14%;background:radial-gradient(circle,color-mix(in srgb,var(--vm-cor,var(--marca)) 18%,transparent) 0%,transparent 66%)}
+.vm-fr .vm-fr-sec::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(0,0,0,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.035) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse at 50% 50%,#000 10%,transparent 70%);pointer-events:none}
+.vm-fr-barra{position:fixed;top:0;left:0;height:3px;width:0;background:var(--vm-cor,var(--marca));z-index:99;pointer-events:none;transition:width .12s linear}
+@media (prefers-reduced-motion:reduce){
+  .vm-fr .vm-fr-m{transform:none!important}
+  .vm-fr-barra{display:none}
+}
+</style>
+<style data-video-topo="">.vv-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;pointer-events:none}.vv-video.tocando{opacity:1}@media (prefers-reduced-motion:reduce){.vv-video{display:none}}</style><style data-fotos-firmes="">img{color:transparent}img[src*="/fotos/"]{background-color:rgba(128,128,128,.14)}</style><script data-fotos-firmes="">document.addEventListener('error',function(e){var t=e.target;if(!t||t.tagName!=='IMG'||t.getAttribute('data-re'))return;var s=t.getAttribute('src')||'';if(s.indexOf('http')!==0)return;t.setAttribute('data-re','1');setTimeout(function(){t.src=s+(s.indexOf('?')<0?'?':'&')+'r=1'},1200)},true);</script><style id="_goober"> .go1475592160{height:0;}.go1671063245{height:auto;}.go1888806478{display:flex;flex-wrap:wrap;flex-grow:1;}@media (min-width:600px){.go1888806478{flex-grow:initial;min-width:288px;}}.go167266335{background-color:#313131;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;color:#fff;align-items:center;padding:6px 16px;border-radius:4px;box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.go3162094071{padding-left:20px;}.go3844575157{background-color:#313131;}.go1725278324{background-color:#43a047;}.go3651055292{background-color:#d32f2f;}.go4215275574{background-color:#ff9800;}.go1930647212{background-color:#2196f3;}.go946087465{display:flex;align-items:center;padding:8px 0;}.go703367398{display:flex;align-items:center;margin-left:auto;padding-left:16px;margin-right:-8px;}.go3963613292{width:100%;position:relative;transform:translateX(0);top:0;right:0;bottom:0;left:0;min-width:288px;}.go1141946668{box-sizing:border-box;display:flex;max-height:100%;position:fixed;z-index:1400;height:auto;width:auto;transition:top 300ms ease 0ms,right 300ms ease 0ms,bottom 300ms ease 0ms,left 300ms ease 0ms,max-width 300ms ease 0ms;pointer-events:none;max-width:calc(100% - 40px);}.go1141946668 .notistack-CollapseWrapper{padding:6px 0px;transition:padding 300ms ease 0ms;}@media (max-width:599.95px){.go1141946668{width:100%;max-width:calc(100% - 32px);}}.go3868796639 .notistack-CollapseWrapper{padding:2px 0px;}.go3118922589{top:14px;flex-direction:column;}.go1453831412{bottom:14px;flex-direction:column-reverse;}.go4027089540{left:20px;}@media (min-width:600px){.go4027089540{align-items:flex-start;}}@media (max-width:599.95px){.go4027089540{left:16px;}}.go2989568495{right:20px;}@media (min-width:600px){.go2989568495{align-items:flex-end;}}@media (max-width:599.95px){.go2989568495{right:16px;}}.go4034260886{left:50%;transform:translateX(-50%);}@media (min-width:600px){.go4034260886{align-items:center;}}</style></head>
+<body>
+
+<header data-bloco="cabecalho" data-bloco-nome="Cabeçalho">
+  <div class="wrap barra">
+    <a class="marca" href="#">
+      <svg class="monograma" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false"><defs><linearGradient id="valy-mono" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14161A"></stop><stop offset="1" stop-color="#0e1013"></stop></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#valy-mono)"></rect><rect x=".75" y=".75" width="38.5" height="38.5" rx="10.25" fill="none" stroke="rgba(255,255,255,.26)" stroke-width="1.5"></rect><text x="20" y="20" dy=".36em" text-anchor="middle" fill="#fff" font-family="'Archivo',Georgia,serif" font-weight="700" font-size="15" letter-spacing=".4">SM</text></svg>
+      <span class="logo" data-valy="marcaNome">SELECT MOTORS - Premium Cars</span>
+    </a>
+    <nav>
+      <a href="#itens" data-valy="navItens">Servicios</a>
+      <a href="#diferenciais" data-valy="navDiferenciais">Diferenciais</a>
+      <a href="#planos" data-valy="navPlanos">Formas de contratar</a>
+      
+      <a href="#faq" data-valy="navFaq">Perguntas</a>
+      <a href="#contato" data-valy="navContato">Contato</a>
+    </nav>
+    <a class="btn" href="https://wa.me/5959999999999">Pedir presupuesto</a>
+  </div>
+</header>
+
+
+
+
+<section class="hero" data-bloco="hero" data-bloco-nome="Topo" data-foto="capa"><video class="vv-video tocando" muted="" loop="" playsinline="" autoplay="" preload="none" poster="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-poster.webp" data-src="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-1280.mp4" data-src-movel="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-720.mp4" aria-hidden="true" tabindex="-1" disablepictureinpicture="" src="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-1280.mp4"></video>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="heroEyebrow" style="--vm-d: 0ms;">Cidade Del Leste</span>
+    <h1 data-valy="heroTitulo" class="vm-tx-el vm-in" style="--vm-d: 90ms;">SEMI NOVOS com procedência</h1>
+    <p class="sub vm-tx-el vm-in" data-valy="heroSubtitulo" style="--vm-d: 180ms;">SELECT MOTORS - Premium Cars valora lo que necesitas, te da el precio antes de empezar y entrega en el plazo acordado. Sin sorpresas al final.</p>
+    <div class="acoes vm-tx-el vm-in" style="--vm-d: 0ms;">
+      <a class="btn" href="https://wa.me/5959999999999" data-valy="heroBotao">Pedir presupuesto</a>
+      <a class="btn btn2" href="#itens" data-valy="heroBotao2">Ver servicios</a>
+    </div>
+    <div class="fatos vm-tx-el vm-in" style="--vm-d: 90ms;">
+      <span data-lista="fatos" data-i="0" data-campo="texto">Presupuesto sin compromiso</span>
+      <span data-lista="fatos" data-i="1" data-campo="texto">Trabajamos en Cidade Del Leste y alrededores</span>
+      <span data-lista="fatos" data-i="2" data-campo="texto">Tarjeta, efectivo y transferencia</span>
+    </div>
+    
+  </div>
+</section>
+
+<section class="numeros" data-bloco="numeros" data-bloco-nome="Números">
+  <div class="wrap grade-n">
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="0" style="--vm-i: 0;"><b data-campo="valor">Gratis</b><span data-campo="rotulo">Presupuesto</span></div>
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="1" style="--vm-i: 1;"><b data-campo="valor">4,8</b><span data-campo="rotulo">Valoración de clientes</span></div>
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="2" style="--vm-i: 2;"><b data-campo="valor">+300</b><span data-campo="rotulo">Trabajos realizados</span></div>
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="3" style="--vm-i: 3;"><b data-campo="valor">24h</b><span data-campo="rotulo">Respuesta del presupuesto</span></div>
+    
+  </div>
+</section>
+
+<section class="itens vm-fr-sec" id="itens" data-bloco="itens" data-bloco-nome="Servicios"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-19.8px, -4.1px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(19.8px, 4.1px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="itensTag" style="--vm-d: 180ms;">Servicios</span>
+    <h2 data-valy="itensTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Lo que hacemos, con alcance y plazo definidos</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="itensIntro" style="--vm-d: 90ms;">Cada servicio empieza por una valoración de lo que hay que hacer. El presupuesto sale con alcance, plazo y precio, y es el que vale hasta el final del trabajo.</p>
+    
+    <div class="grade">
+      <article class="item vm-im-card vm-in" data-item="0" data-lista="itens" data-i="0" style="--vm-i: 0;">
+        <img src="https://cdowco9uebrdby23.public.blob.vercel-storage.com/fotos/servicos-locais/8961699-900.webp" alt="Presupuesto sin compromiso" loading="lazy" data-foto="item:0">
+        <div class="item-txt">
+          <h3 data-campo="nome">Presupuesto sin compromiso</h3>
+          <p class="pq" data-campo="paraQuem">Para quien necesita presupuesto sin compromiso con plazo acordado.</p>
+          <p data-campo="texto">Valoramos lo que hay que hacer, damos el presupuesto con alcance y plazo, y solo empezamos tras tu aprobación. El precio acordado es el precio final.</p>
+          
+        </div>
+      </article>
+    </div>
+    
+  </div>
+</section>
+
+<section class="dif vm-fr-sec" id="diferenciais" data-bloco="diferenciais" data-bloco-nome="Por qué llamarnos"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-19.8px, -4.1px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(19.8px, 4.1px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="difTag" style="--vm-d: 180ms;">Por qué llamarnos</span>
+    <h2 data-valy="difTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Lo que puedes exigirnos</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="difIntro" style="--vm-d: 90ms;">Son compromisos prácticos, del primer contacto a la entrega, y todos aparecen por escrito en el presupuesto que recibes.</p>
+    
+    <div class="grade-d">
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="0" style="--vm-i: 0;"><h3 data-campo="titulo">Presupuesto sin coste</h3><p data-campo="texto">Valorar y presupuestar no se cobra. Solo pagas si apruebas el trabajo.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="1" style="--vm-i: 1;"><h3 data-campo="titulo">Precio cerrado</h3><p data-campo="texto">El precio aprobado es el final. Un cambio de alcance se habla antes, nunca se cobra después.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="2" style="--vm-i: 2;"><h3 data-campo="titulo">Plazo acordado</h3><p data-campo="texto">Decimos cuándo entregamos y cumplimos. Si algo se retrasa, te enteras antes.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="3" style="--vm-i: 3;"><h3 data-campo="titulo">Trato directo</h3><p data-campo="texto">Hablas con quien ejecuta el trabajo, sin intermediarios ni teléfonos interminables.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="4" style="--vm-i: 4;"><h3 data-campo="titulo">Material detallado</h3><p data-campo="texto">Lo que se va a usar está en el presupuesto, con marca y cantidad.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="5" style="--vm-i: 5;"><h3 data-campo="titulo">Lo dejamos limpio</h3><p data-campo="texto">Terminado el trabajo, el espacio queda ordenado. Eso forma parte del servicio.</p></div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="passos vm-fr-sec" data-bloco="passos" data-bloco-nome="Cómo funciona"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-19.8px, -4.1px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(19.8px, 4.1px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="passosTag" style="--vm-d: 180ms;">Cómo funciona</span>
+    <h2 data-valy="passosTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Del primer contacto a la entrega</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="passosIntro" style="--vm-d: 90ms;">Un guion fijo, el mismo para cada cliente: es lo que evita malentendidos a mitad de camino.</p>
+    
+    <div class="grade-p">
+      <div class="p vm-im-card vm-in" data-lista="passos" data-i="0" style="--vm-i: 0;"><h3 data-campo="titulo">Cuéntanos qué necesitas</h3><p data-campo="texto">Mándanos un mensaje describiendo el trabajo. Una foto ayuda mucho a adelantar la valoración.</p></div>
+      <div class="p vm-im-card vm-in" data-lista="passos" data-i="1" style="--vm-i: 1;"><h3 data-campo="titulo">Recibe el presupuesto</h3><p data-campo="texto">Valoramos y enviamos el precio con alcance y plazo. Sin compromiso de aceptar.</p></div>
+      <div class="p vm-im-card vm-in" data-lista="passos" data-i="2" style="--vm-i: 2;"><h3 data-campo="titulo">Lo apruebas y ejecutamos</h3><p data-campo="texto">Acordamos la fecha y hacemos el trabajo en el plazo fijado, con el precio aprobado.</p></div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="planos" id="planos" data-bloco="planos" data-bloco-nome="Formas de contratar">
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="planosTag" style="--vm-d: 180ms;">Formas de contratar</span>
+    <h2 data-valy="planosTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Tres formas de trabajar con nosotros</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="planosIntro" style="--vm-d: 90ms;">La ejecución es la misma en las tres. Lo que cambia es el compromiso de plazo, la prioridad de atención y cómo se acuerda el precio.</p>
+    
+    <div class="grade-pl">
+      <div class="pl vm-im-card vm-in" data-lista="planos" data-i="0" style="--vm-i: 0;">
+        <h3 data-campo="nome">Servicio puntual</h3>
+        <p class="res" data-campo="resumo">Nos llamas, presupuestamos y ejecutamos ese trabajo concreto.</p>
+        <ul data-campo="inclui" data-multi="">
+          <li>Presupuesto sin coste</li>
+          <li>Precio cerrado antes</li>
+          <li>Garantía registrada</li>
+        </ul>
+        <a class="btn btn-pl" href="https://wa.me/5959999999999">Escribir por WhatsApp</a>
+      </div>
+      <div class="pl vm-im-card vm-in" data-lista="planos" data-i="1" style="--vm-i: 1;">
+        <h3 data-campo="nome">Pack de servicios</h3>
+        <p class="res" data-campo="resumo">Varios trabajos en el mismo presupuesto, con mejor precio.</p>
+        <ul data-campo="inclui" data-multi="">
+          <li>Descuento por conjunto</li>
+          <li>Un único calendario</li>
+          <li>Un responsable para todo</li>
+        </ul>
+        <a class="btn btn-pl" href="https://wa.me/5959999999999">Escribir por WhatsApp</a>
+      </div>
+      <div class="pl vm-im-card vm-in" data-lista="planos" data-i="2" style="--vm-i: 2;">
+        <h3 data-campo="nome">Contrato mensual</h3>
+        <p class="res" data-campo="resumo">Para quien necesita mantenimiento recurrente y atención prioritaria.</p>
+        <ul data-campo="inclui" data-multi="">
+          <li>Precio fijo al mes</li>
+          <li>Visitas programadas</li>
+          <li>Prioridad en urgencias</li>
+        </ul>
+        <a class="btn btn-pl" href="https://wa.me/5959999999999">Escribir por WhatsApp</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="faq vm-fr-sec" id="faq" data-bloco="faq" data-bloco-nome="Preguntas frecuentes"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-19.8px, -4.1px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(19.8px, 4.1px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="faqTag" style="--vm-d: 180ms;">Preguntas frecuentes</span>
+    <h2 data-valy="faqTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Lo que preguntan antes de contratar</h2>
+    
+    <div class="perguntas">
+      <details data-lista="faq" data-i="0" class="vm-im-card vm-in" style="--vm-i: 0;"><summary data-campo="pergunta">¿El presupuesto se cobra?</summary><p data-campo="resposta">No. Valorar y presupuestar es sin compromiso: solo pagas si lo apruebas.</p></details>
+      <details data-lista="faq" data-i="1" class="vm-im-card vm-in" style="--vm-i: 1;"><summary data-campo="pergunta">¿En cuánto tiempo recibo el presupuesto?</summary><p data-campo="resposta">Normalmente el mismo día, y como máximo en 24 horas tras la valoración.</p></details>
+      <details data-lista="faq" data-i="2" class="vm-im-card vm-in" style="--vm-i: 2;"><summary data-campo="pergunta">¿Trabajáis en mi zona?</summary><p data-campo="resposta">Cubrimos Cidade Del Leste y localidades cercanas. Mándanos tu dirección y te lo confirmamos.</p></details>
+      <details data-lista="faq" data-i="3" class="vm-im-card vm-in" style="--vm-i: 3;"><summary data-campo="pergunta">¿El precio puede cambiar durante el trabajo?</summary><p data-campo="resposta">El precio aprobado es el final. Si aparece algo fuera del alcance, lo hablamos antes de hacer nada.</p></details>
+      <details data-lista="faq" data-i="4" class="vm-im-card vm-in" style="--vm-i: 4;"><summary data-campo="pergunta">¿Qué formas de pago aceptáis?</summary><p data-campo="resposta">Tarjeta, efectivo y transferencia, acordadas junto con el presupuesto.</p></details>
+      <details data-lista="faq" data-i="5" class="vm-im-card vm-in" style="--vm-i: 5;"><summary data-campo="pergunta">¿Dais garantía?</summary><p data-campo="resposta">Sí. La garantía del trabajo queda registrada en el presupuesto que apruebas.</p></details>
+    </div>
+    
+  </div>
+</section>
+
+<section class="historia vm-fr-sec" data-bloco="historia" data-bloco-nome="Nuestra historia"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-19.8px, -4.1px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(19.8px, 4.1px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="historiaTag" style="--vm-d: 90ms;">Nuestra historia</span>
+    <h2 data-valy="historiaTitulo" class="vm-tx-el vm-in" style="--vm-d: 180ms;">Un trabajo que creció por recomendación</h2>
+    
+    <p data-valy="historiaTexto" class="vm-tx-el vm-in" style="--vm-d: 0ms;">SELECT MOTORS - Premium Cars empezó pequeño, atendiendo a quien nos recomendaba. No hubo publicidad: hubo trabajo entregado en plazo y presupuesto cumplido. Eso trajo al siguiente cliente, y al siguiente. Hoy trabajamos en Cidade Del Leste y alrededores, con la misma forma de hacer las cosas: presupuesto claro antes, trabajo bien hecho después.</p>
+    
+  </div>
+</section>
+
+<section class="depo" data-bloco="depoimentos" data-bloco-nome="Opiniones">
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="depoTag" style="--vm-d: 90ms;">Opiniones</span>
+    <h2 data-valy="depoTitulo" class="vm-tx-el vm-in" style="--vm-d: 180ms;">Lo que cuentan los clientes</h2>
+    
+    <div class="grade-dep">
+      <div class="dep vm-im-card vm-in" data-lista="depoimentos" data-i="0" style="--vm-i: 0;">
+        <div class="estrelas" aria-label="cinco estrellas">★★★★★</div>
+        <p data-campo="texto">“Presupuesto el mismo día y trabajo en plazo. Cobraron exactamente lo acordado.”</p>
+        <div class="assina">
+          <span class="ini">C</span>
+          <span><b data-campo="autor">Cliente atendido</b><em data-campo="detalhe">trabajo en vivienda</em></span>
+        </div>
+      </div>
+      <div class="dep vm-im-card vm-in" data-lista="depoimentos" data-i="1" style="--vm-i: 1;">
+        <div class="estrelas" aria-label="cinco estrellas">★★★★★</div>
+        <p data-campo="texto">“Explicaron lo que hacía falta y lo que no. No me colocaron nada de más.”</p>
+        <div class="assina">
+          <span class="ini">C</span>
+          <span><b data-campo="autor">Cliente de la zona</b><em data-campo="detalhe">presupuesto</em></span>
+        </div>
+      </div>
+      <div class="dep vm-im-card vm-in" data-lista="depoimentos" data-i="2" style="--vm-i: 2;">
+        <div class="estrelas" aria-label="cinco estrellas">★★★★★</div>
+        <p data-campo="texto">“Terminaron y lo dejaron todo limpio. Parece un detalle, pero se nota.”</p>
+        <div class="assina">
+          <span class="ini">C</span>
+          <span><b data-campo="autor">Cliente de Cidade Del Leste</b><em data-campo="detalhe">trabajo terminado</em></span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="chamada" data-bloco="chamada" data-bloco-nome="Chamada final">
+  <div class="wrap">
+    <h2 data-valy="chamadaTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">¿Necesitas un presupuesto?</h2>
+    
+    <p data-valy="chamadaTexto" class="vm-tx-el vm-in" style="--vm-d: 90ms;">Cuéntanos qué necesitas y te respondemos enseguida.</p>
+    <a class="btn" href="https://wa.me/5959999999999" data-valy="chamadaBotao">Escribir por WhatsApp</a>
+    
+  </div>
+</section>
+
+<section class="contato vm-fr-sec" id="contato" data-bloco="contato" data-bloco-nome="Contacto"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-19.8px, -4.1px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(19.8px, 4.1px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="contatoTag" style="--vm-d: 180ms;">Contacto</span>
+    <h2 data-valy="contatoTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Dónde estamos y cómo pedir tu presupuesto</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="contatoTexto" style="--vm-d: 90ms;">Trabajamos en Cidade Del Leste y alrededores. Para pedir presupuesto, mándanos un mensaje contando qué necesitas.</p>
+    
+    <div class="cols">
+      <div class="campo vm-im-card vm-in" style="--vm-i: 0;"><h3>Dirección</h3><p>Santa Rita - PY | Ruta 6</p></div>
+      <div class="campo vm-im-card vm-in" style="--vm-i: 1;"><h3>Teléfono y WhatsApp</h3><a href="tel:+595 99 9999 9999">+595 99 9999 9999</a></div>
+      <div class="campo vm-im-card vm-in" style="--vm-i: 2;"><h3>Horario</h3><p data-valy="contatoAtendimento">Todos los días, en horario comercial.</p></div>
+    </div>
+    <div class="mapa"><iframe src="https://www.google.com/maps?q=Santa%20Rita%20-%20PY%20%7C%20Ruta%206%2C%20Cidade%20Del%20Leste%2C%20Paraguai&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Cómo llegar"></iframe></div>
+    
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" data-valy="rodapeTexto">© 2026 SELECT MOTORS - Premium Cars em Cidade Del Leste. Todos os direitos reservados.</div>
+</footer>
+
+<a class="zap" href="https://wa.me/5959999999999" data-valy="zapFlutuante">WhatsApp</a>
+
+<!-- Barra fixa do celular (ver .dock no CSS): o mesmo destino do
+     botão do topo, com o ícone do WhatsApp quando há telefone. No
+     desktop ela some e a pílula acima volta. -->
+<div class="dock"><a class="btn" href="https://wa.me/5959999999999"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.7-6.1c-.3-.1-1.5-.7-1.8-.8-.2-.1-.4-.1-.6.1l-.8 1c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.3 5.3 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.5 2.5 0 0 0 1.6-1.1c.2-.5.2-1 .1-1.1l-.3-.2Z"></path></svg>Pedir presupuesto</a></div>
+
+<script>
+/* Números que contam ao entrar na tela.
+   ------------------------------------------------------------------
+   Roda só quando o bloco aparece, uma vez, e apenas em valores que são
+   número de verdade — "6h-22h" e "4,8" ficam como estão em vez de
+   virarem uma contagem sem sentido.
+
+   Quem pediu menos animação no sistema operacional vê o valor final
+   direto: efeito bonito não vale tontura em ninguém. */
+(function () {
+  var reduzir = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var alvos = document.querySelectorAll(".n b");
+  if (!alvos.length || reduzir || !("IntersectionObserver" in window)) return;
+
+  function anima(el) {
+    var bruto = el.textContent.trim();
+    /* ESTA EXPRESSÃO ESTAVA SEM AS BARRAS INVERTIDAS: era
+       /^(d+)([^d]*)$/, que procura a LETRA "d" e nunca casa com um
+       número. Resultado: os números nunca contaram, em nenhum site
+       gerado até 08/09/2026. Achado ao construir o pacote de
+       movimento, que tinha o mesmo trabalho para fazer.
+
+       Agora aceita prefixo e decimal também — "4,8" e "+500" são o
+       que aparece de verdade na faixa. */
+    var casa = bruto.match(/^([^0-9]*)([0-9]+(?:[.,][0-9]+)?)(.*)$/);
+    if (!casa) return;
+    var prefixo = casa[1] || "";
+    var corpo = casa[2];
+    var sufixo = casa[3] || "";
+    var virgula = corpo.indexOf(",") >= 0;
+    var decimais = /[.,]/.test(corpo) ? corpo.split(/[.,]/)[1].length : 0;
+    var fim = parseFloat(corpo.replace(",", "."));
+    if (!isFinite(fim) || fim < 2) return;
+    var inicio = null;
+    var dur = 1100;
+    function escrever(v) {
+      var t = v.toFixed(decimais);
+      if (virgula) t = t.replace(".", ",");
+      el.textContent = prefixo + t + sufixo;
+    }
+    function passo(t) {
+      if (!inicio) inicio = t;
+      var f = Math.min((t - inicio) / dur, 1);
+      escrever(fim * (1 - Math.pow(1 - f, 3)));
+      if (f < 1) requestAnimationFrame(passo);
+    }
+    escrever(0);
+    requestAnimationFrame(passo);
+  }
+
+  var obs = new IntersectionObserver(function (itens) {
+    itens.forEach(function (i) {
+      if (i.isIntersecting) {
+        anima(i.target);
+        obs.unobserve(i.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  alvos.forEach(function (el) { obs.observe(el); });
+})();
+</script>
+<script data-dur="720" data-fator="1" data-motion="texto-revela">
+(function(){
+
+  var cfg = (document.currentScript && document.currentScript.dataset) || {};
+  var quieto = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var estreito = !!(window.matchMedia && window.matchMedia("(max-width: 700px)").matches);
+  if (estreito && cfg.mobile === "0") return;
+  var DUR = parseInt(cfg.dur || "720", 10) || 720;
+  var FATOR = parseFloat(cfg.fator || "1") || 1;
+  var COR = cfg.cor || "";
+  var raiz = document.documentElement;
+  if (COR) raiz.style.setProperty("--vm-cor", COR);
+
+  if (!("IntersectionObserver" in window)) return;
+  raiz.style.setProperty("--vm-dur", DUR + "ms");
+  raiz.style.setProperty("--vm-f", String(FATOR));
+
+  var SEL = ".hero .tag, .hero h1, .hero p.sub, .hero .acoes, .hero .fatos, section > .wrap > .tag, section > .wrap > h2, section > .wrap > .intro, section > .wrap > p, .chamada h2, .chamada p";
+  var alvos = Array.prototype.slice.call(document.querySelectorAll(SEL));
+
+  /* Só agora os elementos somem — depois de o script ter certeza de
+     que vai devolvê-los. Um erro antes desta linha deixa a página
+     inteira, que é como uma animação deve falhar. */
+  raiz.classList.add("vm-tx");
+
+  /* No modo marcante, o título vira palavras. Cria os spans por DOM:
+     o texto nunca volta para dentro do HTML como string. */
+  var porPalavra = FATOR >= 1.5;
+  alvos.forEach(function(el, idx){
+    el.classList.add("vm-tx-el");
+    /* Escada curta dentro do mesmo bloco: etiqueta, título, texto. */
+    el.style.setProperty("--vm-d", (idx % 3) * 90 + "ms");
+    if (porPalavra && (el.tagName === "H1" || el.tagName === "H2") && el.childNodes.length === 1 && el.firstChild.nodeType === 3) {
+      var palavras = el.textContent.split(/(\s+)/);
+      el.textContent = "";
+      var n = 0;
+      palavras.forEach(function(p){
+        if (!p) return;
+        if (/^\s+$/.test(p)) { el.appendChild(document.createTextNode(" ")); return; }
+        var s = document.createElement("span");
+        s.className = "vm-tx-w";
+        s.style.setProperty("--vm-d", (n++ * 55) + "ms");
+        s.textContent = p;
+        el.appendChild(s);
+      });
+    }
+  });
+
+  if (quieto) { alvos.forEach(function(el){ el.classList.add("vm-in"); }); return; }
+
+  var obs = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (!e.isIntersecting) return;
+      e.target.classList.add("vm-in");
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.15, rootMargin: "0px 0px -6% 0px" });
+  alvos.forEach(function(el){ obs.observe(el); });
+  window.addEventListener("pagehide", function(){ obs.disconnect(); });
+})();
+</script>
+<script data-dur="720" data-fator="1" data-motion="imagem-entra">
+(function(){
+
+  var cfg = (document.currentScript && document.currentScript.dataset) || {};
+  var quieto = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var estreito = !!(window.matchMedia && window.matchMedia("(max-width: 700px)").matches);
+  if (estreito && cfg.mobile === "0") return;
+  var DUR = parseInt(cfg.dur || "720", 10) || 720;
+  var FATOR = parseFloat(cfg.fator || "1") || 1;
+  var COR = cfg.cor || "";
+  var raiz = document.documentElement;
+  if (COR) raiz.style.setProperty("--vm-cor", COR);
+
+  if (!("IntersectionObserver" in window)) return;
+  raiz.style.setProperty("--vm-dur", DUR + "ms");
+  raiz.style.setProperty("--vm-f", String(FATOR));
+  /* O intervalo da escada cresce com a intensidade. */
+  raiz.style.setProperty("--vm-passo", Math.round(80 * FATOR) + "ms");
+
+  var GRADES = [".grade", ".grade-d", ".grade-p", ".grade-pl", ".grade-dep", ".grade-n", ".perguntas", ".grid-fotos", ".cols"];
+  var alvos = [];
+  GRADES.forEach(function(sel){
+    document.querySelectorAll(sel).forEach(function(g){
+      for (var i = 0; i < g.children.length; i++) {
+        g.children[i].classList.add("vm-im-card");
+        g.children[i].style.setProperty("--vm-i", String(i % 6));
+        alvos.push(g.children[i]);
+      }
+    });
+  });
+
+  raiz.classList.add("vm-im");
+  if (quieto) { alvos.forEach(function(el){ el.classList.add("vm-in"); }); return; }
+
+  var obs = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (!e.isIntersecting) return;
+      e.target.classList.add("vm-in");
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+  alvos.forEach(function(el){ obs.observe(el); });
+  window.addEventListener("pagehide", function(){ obs.disconnect(); });
+})();
+</script>
+<script data-dur="720" data-fator="1" data-motion="fundo-reativo">
+(function(){
+
+  var cfg = (document.currentScript && document.currentScript.dataset) || {};
+  var quieto = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var estreito = !!(window.matchMedia && window.matchMedia("(max-width: 700px)").matches);
+  if (estreito && cfg.mobile === "0") return;
+  var DUR = parseInt(cfg.dur || "720", 10) || 720;
+  var FATOR = parseFloat(cfg.fator || "1") || 1;
+  var COR = cfg.cor || "";
+  var raiz = document.documentElement;
+  if (COR) raiz.style.setProperty("--vm-cor", COR);
+
+  var secoes = Array.prototype.slice.call(document.querySelectorAll("section.itens, section.dif, section.passos, section.faq, section.contato, section.historia"));
+  if (!secoes.length) return;
+  raiz.style.setProperty("--vm-f", String(FATOR));
+  raiz.classList.add("vm-fr");
+
+  var manchas = [];
+  secoes.forEach(function(s){
+    s.classList.add("vm-fr-sec");
+    var a = document.createElement("div"); a.className = "vm-fr-m vm-fr-m1";
+    var b = document.createElement("div"); b.className = "vm-fr-m vm-fr-m2";
+    s.insertBefore(a, s.firstChild);
+    s.insertBefore(b, s.firstChild);
+    manchas.push(a, b);
+  });
+
+  var barra = document.createElement("div");
+  barra.className = "vm-fr-barra";
+  document.body.appendChild(barra);
+
+  if (quieto) return;
+
+  var suave = DUR >= 1000 ? 0.04 : DUR <= 500 ? 0.14 : 0.08;
+  var mx = 0, my = 0, ax = 0, ay = 0, pedido = 0, ativo = false, temMouse = false;
+
+  function quadro(){
+    pedido = 0;
+    ax += (mx - ax) * suave;
+    ay += (my - ay) * suave;
+    var dx = (ax * 40 * FATOR).toFixed(1), dy = (ay * 40 * FATOR).toFixed(1);
+    for (var i = 0; i < manchas.length; i++) {
+      var s = i % 2 ? -1 : 1;
+      manchas[i].style.transform = "translate3d(" + (s * dx) + "px," + (s * dy) + "px,0)";
+    }
+    var alt = document.documentElement.scrollHeight - window.innerHeight;
+    barra.style.width = (alt > 0 ? Math.max(0, Math.min(1, window.scrollY / alt)) * 100 : 0) + "%";
+    if (Math.abs(mx - ax) > 0.002 || Math.abs(my - ay) > 0.002) pedido = requestAnimationFrame(quadro);
+    else ativo = false;
+  }
+  function acordar(){ if (!ativo) { ativo = true; pedido = requestAnimationFrame(quadro); } }
+
+  /* Mouse: de -1 a 1 em cada eixo. Rolagem: só o eixo Y, para o
+     celular ter movimento sem cursor. */
+  function aoMover(e){ temMouse = true; mx = (e.clientX / window.innerWidth) * 2 - 1; my = (e.clientY / window.innerHeight) * 2 - 1; acordar(); }
+  function aoRolar(){
+    if (!temMouse) { var alt = document.documentElement.scrollHeight - window.innerHeight; my = alt > 0 ? (window.scrollY / alt) * 2 - 1 : 0; }
+    acordar();
+  }
+  window.addEventListener("mousemove", aoMover, { passive: true });
+  window.addEventListener("scroll", aoRolar, { passive: true });
+  aoRolar();
+
+  window.addEventListener("pagehide", function(){
+    window.removeEventListener("mousemove", aoMover);
+    window.removeEventListener("scroll", aoRolar);
+    cancelAnimationFrame(pedido);
+  });
+})();
+</script><div class="vm-fr-barra" style="width: 0%;"></div>
+
+<script data-video-topo="">(function(){var l=document.querySelectorAll('.vv-video');if(!l.length)return;var c=navigator.connection;if((c&&(c.saveData||/2g|3g/.test(c.effectiveType||'')))||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;function go(){l.forEach(function(v){var p=v.parentElement;if(p&&getComputedStyle(p).position==='static')p.style.position='relative';v.src=innerWidth<=760?v.getAttribute('data-src-movel'):v.getAttribute('data-src');v.muted=true;v.addEventListener('playing',function(){v.classList.add('tocando')},{once:true});var t=v.play();if(t&&t.catch)t.catch(function(){})})}if(document.readyState==='complete')setTimeout(go,1200);else addEventListener('load',function(){setTimeout(go,1200)})})();</script><a id="valy-selo" href="https://valyos.com.br?utm_source=selo&amp;utm_medium=site-free" target="_blank" rel="noopener"><style>#valy-selo{position:fixed;left:14px;bottom:14px;z-index:2147483647;display:inline-flex;align-items:center;gap:8px;background:#0b1510;color:#fff;font:600 12px/1 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.01em;padding:9px 13px 9px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.12);box-shadow:0 10px 28px rgba(0,0,0,.35);text-decoration:none}@media (max-width:760px){#valy-selo{bottom:calc(env(safe-area-inset-bottom,0px) + 88px);left:12px;font-size:11px;padding:7px 11px 7px 9px;gap:6px}}</style><svg width="16" height="16" viewBox="0 0 96 96" fill="none" aria-hidden="true"><defs><linearGradient id="vg" x1="0" y1="0" x2="96" y2="96"><stop offset="0" stop-color="#5eea9a"></stop><stop offset="1" stop-color="#0a8f4a"></stop></linearGradient></defs><path d="M48 4c4 22 18 36 40 44-22 8-36 22-40 44-4-22-18-36-40-44 22-8 36-22 40-44z" fill="url(#vg)"></path></svg><span style="opacity:.72;font-weight:500">Feito com</span><span style="font-weight:800;letter-spacing:.06em">VALY</span></a>
+</body></html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Negocio local em Cidade Del Leste | SELECT MOTORS - Premium Cars</title>
+<meta name="description" content="SELECT MOTORS - Premium Cars em Cidade Del Leste. SELECT MOTORS - Premium Cars valora lo que necesitas, te da el precio antes de empezar y entrega en el plazo acordado. Sin sorpresas al final.">
+
+<!-- PRÉVIA AO COMPARTILHAR
+     Sem estas linhas, o link colado no WhatsApp chega como um
+     retângulo cinza. Com elas, chega com a foto de capa, o nome do
+     negócio e a frase de venda — que é o que faz o dono abrir. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Negocio local em Cidade Del Leste | SELECT MOTORS - Premium Cars">
+<meta property="og:description" content="SELECT MOTORS - Premium Cars valora lo que necesitas, te da el precio antes de empezar y entrega en el plazo acordado. Sin sorpresas al final.">
+<meta property="og:image" content="https://cdowco9uebrdby23.public.blob.vercel-storage.com/fotos/servicos-locais/7190889-1600.webp">
+<meta property="og:locale" content="es_PY">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Ícone da aba: a inicial do negócio na cor dele, desenhada em SVG
+     dentro do próprio arquivo. Um .ico separado quebraria a promessa
+     de arquivo único e sumiria assim que o cliente movesse o site. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2064%2064'%3E%3Crect%20width%3D'64'%20height%3D'64'%20rx%3D'14'%20fill%3D'%2314161A'%2F%3E%3Ctext%20x%3D'32'%20y%3D'44'%20font-size%3D'34'%20font-family%3D'Georgia%2Cserif'%20font-weight%3D'bold'%20fill%3D'%23fff'%20text-anchor%3D'middle'%3ES%3C%2Ftext%3E%3C%2Fsvg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  :root{
+    --marca:#14161A;
+    --marca-escura:#0d0e11;
+    --marca-fraca:#e8e8e8;
+    /* A COR DA MARCA QUANDO ELA VIRA TEXTO SOBRE O PAPEL.
+       Num tema claro é a marca mesma. Num tema escuro a marca do
+       cliente pode ser um azul-marinho: legível sobre branco e
+       invisível sobre carvão. Foi o que aconteceu no site de um
+       advogado — a linha "para quem é" sumia dentro do card escuro.
+       Nos blocos que já nascem escuros (topo, números, história) o
+       site sempre usou --marca-fraca; isto estende a mesma ideia ao
+       resto da página quando o papel inteiro escurece. */
+    /* Deixou de ser um "se escuro, clareia" e passou a ser medido:
+       marca cinzenta sobre card cinzento passava no teste antigo e
+       sumia na tela. Ver lib/site/contraste.ts. */
+    --marca-texto:#e8e8e8;
+    --tinta:#F59F00;
+    /* AS TINTAS MEDIDAS — ver lib/site/contraste.ts.
+       Toda superfície pintada com --marca ou --tinta lê a sua daqui,
+       em vez de cravar branco e torcer para o fundo ser escuro. */
+    --sobre-marca:#ffffff;
+    --sobre-tinta:#221600;
+    --realce-tinta:#08080a;
+    /* O botão da chamada final é o inverso da faixa: fundo na tinta
+       que se lê sobre a marca, texto na marca — a não ser que a marca
+       não contraste com esse fundo, e aí cai na tinta legível. */
+    --btn-invertido:#ffffff;
+    --btn-invertido-texto:#14161A;
+    --fundo:#0c0d10;--suave:#14161b;--cartao:#181a20;--texto:#f2f3f5;--apagado:#9aa0ab;--linha:#262a33;--raio:18px;
+    --dock:78px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  /* MOBILE PRIMEIRO. Tudo fora de @media é a tela de 320–759px; o
+     bloco min-width:760 restaura o desktop. O celular ganha o rodapé
+     fixo (.dock) e o body reserva o espaço dele. */
+  body{font-family:'Inter',system-ui,sans-serif;color:var(--texto);background:var(--fundo);line-height:1.6;font-size:16px;padding-bottom:var(--dock);overflow-x:clip}
+  h1,h2,h3{font-family:'Archivo',system-ui,sans-serif;line-height:1.1;letter-spacing:-.025em;text-wrap:balance}
+  img{max-width:100%;display:block}
+  .wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 18px}
+  .tag{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--marca-texto);margin-bottom:12px}
+  .tag::before{content:"";width:18px;height:2px;border-radius:2px;background:var(--marca-texto);flex:0 0 auto}
+  .intro{color:var(--apagado);max-width:680px;margin-top:12px;font-size:1rem;line-height:1.6;text-wrap:pretty}
+  section{padding:60px 0}
+  h2{font-size:clamp(1.8rem,7.4vw,2.3rem)}
+
+  header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--fundo) 88%,transparent);backdrop-filter:blur(12px) saturate(1.2);-webkit-backdrop-filter:blur(12px) saturate(1.2);border-bottom:1px solid var(--linha)}
+  .barra{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+  .marca{display:flex;align-items:center;gap:10px;min-width:0;text-decoration:none;flex:1 1 auto}
+  /* Altura fixa e largura livre: logo horizontal ou quadrada cabe sem
+     esmagar. object-fit:contain para nunca cortar a marca do cliente. */
+  .logo-img{height:32px;width:auto;max-width:120px;object-fit:contain;flex:0 0 auto}
+  .logo{font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:var(--texto);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;letter-spacing:-.01em}
+  nav{display:none;gap:24px}
+  nav a{color:var(--apagado);text-decoration:none;font-size:14px;font-weight:500}
+  nav a:hover{color:var(--marca-texto)}
+  header .btn{min-height:40px;padding:0 16px;font-size:13px;flex:0 0 auto;box-shadow:none}
+  /* O botão carrega a cor escolhida pelo cliente, com um degradê leve e
+     sombra na própria cor — é o que faz ele parecer clicável em vez de
+     um retângulo chapado. 52px de altura: dedo, não cursor. */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    background:linear-gradient(180deg,var(--marca),var(--marca-escura));
+    color:var(--sobre-marca);text-decoration:none;font-weight:700;min-height:52px;padding:14px 24px;border-radius:999px;
+    font-size:15px;letter-spacing:.01em;white-space:nowrap;transition:transform .2s,box-shadow .2s;
+    box-shadow:0 12px 28px -12px var(--marca)}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 16px 32px -12px var(--marca)}
+  .btn:active{transform:translateY(0) scale(.99)}
+  .btn2{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.4);box-shadow:none;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+  .btn2:hover{background:rgba(255,255,255,.22);box-shadow:none}
+  .chamada .btn{background:var(--btn-invertido);color:var(--btn-invertido-texto);box-shadow:0 10px 26px -12px rgba(0,0,0,.5)}
+
+  /* TOPO: no celular a foto ocupa a tela e o texto assenta na base,
+     alinhado à esquerda — é como os sites de vitrine abrem. O véu
+     escurece de baixo para cima para o título ler sobre qualquer foto. */
+  .hero{position:relative;color:#fff;text-align:left;display:flex;align-items:flex-end;min-height:min(84svh,760px);padding:120px 0 40px}
+  /* A COR FICA DEBAIXO DA FOTO, SEMPRE.
+     Endereço de foto morre: o cliente apaga a imagem do Drive, o
+     Google troca o link da foto do Maps, o site de onde ela veio sai
+     do ar. Quando isso acontece com a capa, o topo virava um retângulo
+     vazio com o fundo da página aparecendo — foi o "fundo cinza sem
+     foto" relatado em 17/09/2026. Com a cor no mesmo atalho, a foto
+     que não abre deixa para trás o topo em cor sólida, que é o mesmo
+     resultado de quem nunca pôs foto nenhuma. */
+  .hero::before{content:"";position:absolute;inset:0;background:var(--tinta) url('https://cdowco9uebrdby23.public.blob.vercel-storage.com/fotos/servicos-locais/7190889-1600.webp') 50% 50% / cover}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.30) 0%,rgba(0,0,0,.28) 35%,rgba(0,0,0,.84) 100%)}
+  .hero .wrap{position:relative;z-index:2}
+  .hero .tag{color:#fff;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:7px 12px 7px 10px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);margin-bottom:16px}
+  .hero .tag::before{width:6px;height:6px;border-radius:50%;background:var(--marca-fraca)}
+  .hero h1{font-size:clamp(2.25rem,9.6vw,3.6rem);line-height:1.02;letter-spacing:-.035em;margin-bottom:14px;max-width:900px}
+  .hero p.sub{font-size:1.02rem;line-height:1.55;max-width:36ch;margin:0 0 22px;opacity:.9;text-wrap:pretty}
+  .acoes{display:flex;flex-direction:column;gap:10px}
+  .acoes .btn{width:100%}
+  .fatos{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+  .fatos span{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);font-size:.8rem;font-weight:500;line-height:1.2}
+  .fatos span::before{content:"✓";color:var(--marca-fraca);font-weight:800;font-size:.8rem}
+
+  /* NÚMEROS: uma grade 2×2 com fios finos, cada valor grande na cor
+     clara da marca. */
+  .numeros{background:var(--tinta);color:var(--sobre-tinta);padding:0}
+  /* Uma faixa só, os quatro lado a lado — também no celular (decisão
+     do dono, 16/09). Valor em clamp para "+1.500" caber em 320px. */
+  .grade-n{display:grid;grid-template-columns:repeat(4,1fr);gap:0;text-align:center}
+  .n{padding:22px 4px 18px;border-left:1px solid rgba(255,255,255,.1)}
+  .n:first-child{border-left:0}
+  .n b{font-family:'Archivo',sans-serif;display:block;font-size:clamp(1.25rem,5.6vw,2.1rem);font-weight:800;line-height:1;letter-spacing:-.03em;color:var(--realce-tinta);font-variant-numeric:tabular-nums}
+  .n span{display:block;margin-top:8px;font-size:.56rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;opacity:.62;line-height:1.25;text-wrap:balance}
+
+  .grade{display:grid;gap:16px;grid-template-columns:1fr;margin-top:30px}
+  .item{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);overflow:hidden;transition:.2s;box-shadow:0 14px 34px -26px rgba(0,0,0,.45)}
+  .item:hover{transform:translateY(-3px);box-shadow:0 18px 44px -24px rgba(0,0,0,.45)}
+  .item img{width:100%;height:212px;object-fit:cover}
+  .item-txt{padding:18px 18px 22px}
+  .item h3{font-size:1.2rem;margin-bottom:6px}
+  .item .pq{color:var(--marca-texto);font-size:.86rem;font-weight:600;margin-bottom:8px;line-height:1.45}
+  .item p{color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .dif{background:var(--suave)}
+  .grade-d{display:grid;gap:12px;grid-template-columns:1fr;margin-top:30px;counter-reset:dif}
+  .d{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:22px 20px}
+  .d::before{counter-increment:dif;content:counter(dif,decimal-leading-zero);display:block;font-size:.72rem;font-weight:700;letter-spacing:.16em;color:var(--marca-texto);margin-bottom:10px}
+  .d h3{font-size:1.1rem;margin-bottom:6px}
+  .d p{color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .grade-p{display:grid;gap:14px;grid-template-columns:1fr;margin-top:30px;counter-reset:passo}
+  .p{position:relative;padding:4px 0 4px 56px}
+  .p::before{counter-increment:passo;content:counter(passo);position:absolute;left:0;top:2px;width:40px;height:40px;border-radius:50%;background:var(--marca);color:var(--sobre-marca);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem;font-family:'Archivo',sans-serif}
+  .p h3{font-size:1.1rem;margin-bottom:5px}
+  .p p{color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .grid-fotos{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:26px}
+  .grid-fotos img{width:100%;height:150px;object-fit:cover;border-radius:14px}
+  .grid-fotos img:first-child{grid-column:span 2;height:230px}
+
+  .planos{background:var(--suave)}
+  .grade-pl{display:grid;gap:14px;grid-template-columns:1fr;margin-top:30px}
+  .pl{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:24px 20px;display:flex;flex-direction:column}
+  .pl h3{font-size:1.25rem;margin-bottom:8px;color:var(--marca-texto)}
+  .pl .res{color:var(--apagado);font-size:.93rem;margin-bottom:16px;line-height:1.55}
+  .pl ul{list-style:none;margin-bottom:20px}
+  .pl li{color:var(--texto);font-size:.92rem;padding:9px 0 9px 24px;position:relative;border-top:1px solid var(--linha);line-height:1.45}
+  .pl li:first-child{border-top:0}
+  .pl li::before{content:"✓";position:absolute;left:0;top:9px;color:var(--marca-texto);font-weight:800}
+  .btn-pl{margin-top:auto;width:100%}
+
+  .faq{background:var(--suave)}
+  .perguntas{max-width:760px;margin:26px auto 0;display:grid;gap:10px}
+  details{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:0 18px}
+  summary{cursor:pointer;font-weight:600;font-size:1rem;list-style:none;min-height:56px;display:flex;align-items:center;justify-content:space-between;gap:14px;line-height:1.35}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--marca-texto);font-weight:700;font-size:1.3rem;flex:0 0 auto}
+  details[open] summary::after{content:"−"}
+  details p{margin:-4px 0 18px;color:var(--apagado);font-size:.93rem;line-height:1.6}
+
+  .historia{background:var(--tinta);color:var(--sobre-tinta)}
+  .historia .tag{color:var(--realce-tinta)}
+  .historia .tag::before{background:var(--marca-fraca)}
+  .historia p{opacity:.84;max-width:760px;margin-top:14px;font-size:1.02rem;line-height:1.65}
+
+  .grade-dep{display:grid;gap:14px;grid-template-columns:1fr;margin-top:30px}
+  .dep{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:22px 20px}
+  .dep p{font-size:1.02rem;line-height:1.6;margin-bottom:16px}
+  .dep b{display:block;font-size:.9rem}
+  .dep span{color:var(--apagado);font-size:.8rem}
+
+  .mapa{margin-top:22px;border-radius:var(--raio);overflow:hidden;border:1px solid var(--linha)}
+  .mapa iframe{width:100%;height:260px;border:0;display:block}
+
+  .estrelas{color:#f5a623;letter-spacing:2px;margin-bottom:10px;font-size:.95rem}
+  .assina{display:flex;align-items:center;gap:10px}
+  .ini{width:38px;height:38px;border-radius:50%;background:var(--marca);color:var(--sobre-marca);display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0}
+  .dep em{display:block;font-style:normal;color:var(--apagado);font-size:.78rem}
+
+  .chamada{background:var(--marca);color:var(--sobre-marca);text-align:center;padding:64px 0}
+  .chamada h2{margin-bottom:10px}
+  .chamada p{opacity:.9;margin-bottom:24px;text-wrap:pretty}
+  .chamada .btn{background:var(--btn-invertido);color:var(--btn-invertido-texto);width:100%}
+
+  .contato .cols{display:grid;gap:12px;grid-template-columns:1fr;margin-top:26px}
+  .campo{border:1px solid var(--linha);border-radius:var(--raio);padding:18px 20px;background:var(--cartao)}
+  .campo h3{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--apagado);margin-bottom:6px;font-family:'Inter',sans-serif;font-weight:700}
+  .campo p,.campo a{color:var(--texto);font-size:1rem;text-decoration:none;font-weight:500}
+
+  footer{background:var(--tinta);color:color-mix(in srgb,var(--sobre-tinta) 62%,transparent);text-align:center;padding:30px 0;font-size:.84rem}
+
+  /* CONTATO SEMPRE À MÃO. No celular, uma barra fixa embaixo com o botão
+     inteiro (safe-area do iPhone respeitada) no lugar da pílula
+     flutuante, que cobria texto e botão dos cards. No desktop a pílula
+     volta e a barra some. */
+  .zap{display:none;position:fixed;right:18px;bottom:18px;z-index:30;background:#25d366;color:#fff;border-radius:999px;padding:14px 20px;font-weight:600;text-decoration:none;box-shadow:0 12px 30px -10px rgba(0,0,0,.5)}
+  .dock{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:10px;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--fundo) 90%,transparent);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);border-top:1px solid var(--linha)}
+  .dock .btn{flex:1 1 auto;min-height:50px}
+  .dock .btn svg{width:18px;height:18px;flex:0 0 auto}
+
+  @media(min-width:760px){
+    body{padding-bottom:0}
+    .dock{display:none}
+    .zap{display:inline-flex}
+    nav{display:flex}
+    .logo{font-size:19px}
+    .logo-img{height:40px;max-width:180px}
+    .barra{height:68px}
+    header .btn{min-height:44px;padding:0 22px;font-size:14px}
+    section{padding:96px 0}
+    h2{font-size:clamp(1.8rem,3.6vw,2.4rem)}
+    .hero{text-align:center;display:block;min-height:0;padding:104px 0 88px}
+    .hero::after{background:linear-gradient(180deg,rgba(0,0,0,.42),rgba(0,0,0,.78))}
+    .hero h1{font-size:clamp(2.6rem,5.4vw,3.7rem);margin-inline:auto}
+    .hero p.sub{font-size:1.15rem;max-width:660px;margin:0 auto 28px}
+    .acoes{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:12px}
+    .acoes .btn{width:auto}
+    .fatos{justify-content:center;margin-top:30px}
+    .numeros{padding:48px 0}
+    .grade-n{grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+    .n{padding:0;border:0!important}
+    .n b{font-size:clamp(3.2rem,4vw,4.4rem)}
+    .n span{margin-top:10px;font-size:.72rem;letter-spacing:.12em}
+    .grade{grid-template-columns:repeat(3,1fr);gap:18px}
+    .item img{height:200px}
+    .grade-d{grid-template-columns:repeat(3,1fr);gap:16px}
+    .grade-p{grid-template-columns:repeat(3,1fr);gap:22px}
+    .p{padding:58px 0 0}
+    .p::before{top:0}
+    .grid-fotos{grid-template-columns:repeat(3,1fr);gap:12px}
+    .grid-fotos img,.grid-fotos img:first-child{height:220px;grid-column:auto}
+    .grade-dep{grid-template-columns:repeat(3,1fr);gap:16px}
+    .grade-pl{grid-template-columns:repeat(3,1fr);gap:16px}
+    .chamada{padding:96px 0}
+    .chamada .btn{width:auto}
+    .contato .cols{grid-template-columns:repeat(3,1fr);gap:16px}
+    .mapa iframe{height:300px}
+  }
+  @media(max-width:359px){
+    header .btn{padding:0 12px;font-size:12px}
+    .hero h1{font-size:2.05rem}
+  }
+
+  mark.dst{background:none;color:var(--dst,var(--marca));font-weight:inherit}
+  .hero mark.dst{color:var(--dst,var(--marca-fraca))}
+  .midia{margin:26px auto 0;max-width:920px;border-radius:var(--raio);overflow:hidden;background:var(--suave)}
+  .midia img,.midia video{width:100%;display:block}
+  .midia-video{position:relative;aspect-ratio:16/9}
+  .midia-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .midia figcaption{padding:10px 14px;font-size:.82rem;color:var(--apagado)}
+  .midia + .grade,.midia + .grade-d,.midia + .grade-p,.midia + .grade-pl{margin-top:26px}
+  .bloco-ctas{margin-top:26px;display:flex;flex-wrap:wrap;gap:12px}
+  section[data-estilo~="centrado"] .wrap{text-align:center}
+  section[data-estilo~="centrado"] .bloco-ctas{justify-content:center}
+  section[data-estilo~="a-direita"] .wrap{text-align:right}
+  section[data-estilo~="a-direita"] .bloco-ctas{justify-content:flex-end}
+  /* "ESQUERDA" PRECISA DE REGRA PRÓPRIA, e essa é a parte que não é
+     óbvia: no computador o motor já manda .hero com text-align:center.
+     Enquanto "esquerda" era só a ausência de classe, clicar nela não
+     mudava nada no computador — o alinhamento padrão do bloco vencia.
+     Pedir para mover o texto e ver a tela imóvel é o defeito que esta
+     linha corrige. */
+  section[data-estilo~="a-esquerda"] .wrap{text-align:left}
+  section[data-estilo~="a-esquerda"] .bloco-ctas{justify-content:flex-start}
+  /* ALINHAR O TEXTO DO TOPO NÃO É SÓ text-align.
+     O h1 e o subtítulo têm largura máxima própria (900px e 36ch) para
+     não virarem uma linha de ponta a ponta da tela. Sem mexer nas
+     margens, alinhar mudava o texto DENTRO de um bloco que continuava
+     no mesmo lugar — e a pessoa via quase nada acontecer. */
+  section.hero[data-estilo~="a-esquerda"] h1,
+  section.hero[data-estilo~="a-esquerda"] p.sub{margin-left:0;margin-right:auto}
+  section.hero[data-estilo~="a-esquerda"] .acoes,
+  section.hero[data-estilo~="a-esquerda"] .fatos{justify-content:flex-start}
+  section.hero[data-estilo~="centrado"] h1,
+  section.hero[data-estilo~="centrado"] p.sub{margin-left:auto;margin-right:auto}
+  section.hero[data-estilo~="centrado"] .acoes,
+  section.hero[data-estilo~="centrado"] .fatos{justify-content:center}
+  section.hero[data-estilo~="a-direita"] h1,
+  section.hero[data-estilo~="a-direita"] p.sub{margin-left:auto;margin-right:0}
+  section.hero[data-estilo~="a-direita"] .acoes,
+  section.hero[data-estilo~="a-direita"] .fatos{justify-content:flex-end}
+  /* ALTURA DO TEXTO NO TOPO.
+     No celular o topo já é uma coluna de 84svh com o texto assentado
+     na base — mover na vertical é trocar o align-items.
+
+     No computador o topo é um bloco com respiro em cima e embaixo:
+     não existe altura sobrando para o texto ocupar. Por isso a altura
+     só nasce QUANDO a pessoa escolhe uma posição — nenhum site que
+     nunca tocou neste controle muda de aparência por causa dele. */
+  section.hero[data-estilo~="v-topo"]{align-items:flex-start}
+  section.hero[data-estilo~="v-meio"]{align-items:center}
+  section.hero[data-estilo~="v-base"]{align-items:flex-end}
+  @media(min-width:760px){
+    section.hero[data-estilo~="v-topo"],
+    section.hero[data-estilo~="v-meio"],
+    section.hero[data-estilo~="v-base"]{display:flex;min-height:min(78svh,700px)}
+    section.hero[data-estilo~="v-topo"] .wrap,
+    section.hero[data-estilo~="v-meio"] .wrap,
+    section.hero[data-estilo~="v-base"] .wrap{width:100%}
+  }
+  section[data-estilo~="tit-pp"] h1,section[data-estilo~="tit-pp"] h2{font-size:1.4rem}
+  section[data-estilo~="tit-p"] h1,section[data-estilo~="tit-p"] h2{font-size:1.7rem}
+  section[data-estilo~="tit-m"] h1,section[data-estilo~="tit-m"] h2{font-size:2.1rem}
+  section[data-estilo~="tit-g"] h1,section[data-estilo~="tit-g"] h2{font-size:2.6rem}
+  section[data-estilo~="tit-xg"] h1,section[data-estilo~="tit-xg"] h2{font-size:3.2rem}
+  /* O topo é h1: sem esta linha o "XG" mudava as seções e deixava o
+     título do hero do mesmo tamanho. E os dois maiores encolhem no
+     celular, onde 3,2rem numa tela de 390px vira uma palavra por linha. */
+  section.hero[data-estilo~="tit-g"] h1{font-size:clamp(2.2rem,6vw,3.4rem)}
+  section.hero[data-estilo~="tit-xg"] h1{font-size:clamp(2.4rem,7vw,4.2rem)}
+  @media(max-width:700px){
+    section[data-estilo~="tit-g"] h2{font-size:2.1rem}
+    section[data-estilo~="tit-xg"] h2{font-size:2.4rem}
+  }
+  section[style*="--sec-fundo"]{background:var(--sec-fundo)!important}
+  /* Cor de texto do bloco: vale para tudo que está dentro dele —
+     título, parágrafo, card, pergunta. O :where mantém especificidade
+     zero, então a cor da marca no .tag e no .pq continua vencendo. */
+  section[style*="--sec-texto"]{color:var(--sec-texto)!important}
+  section[style*="--sec-texto"] :where(h1,h2,h3,p,li,summary,b,em,span:not(.tag):not(.pq):not(.preco)){color:inherit}
+  section[data-estilo~="esp-compacto"]{padding-top:36px!important;padding-bottom:36px!important}
+  section[data-estilo~="esp-amplo"]{padding-top:130px!important;padding-bottom:130px!important}
+  @media(max-width:700px){section[data-estilo~="esp-amplo"]{padding-top:96px!important;padding-bottom:96px!important}}
+  @media(min-width:900px){
+    section[style*="--sec-cols"] .grade,section[style*="--sec-cols"] .grade-d,section[style*="--sec-cols"] .grade-p,section[style*="--sec-cols"] .grade-pl{grid-template-columns:repeat(var(--sec-cols),1fr)!important}
+  }
+  .preco{display:inline-block;margin-top:10px;padding:5px 11px;border-radius:999px;background:var(--marca);color:#fff;font-weight:700;font-size:.85rem;letter-spacing:.01em}
+  .cta-pulsar{animation:cta-pulsar 2.2s ease-in-out infinite}
+  @keyframes cta-pulsar{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--marca) 45%,transparent)}50%{box-shadow:0 0 0 10px transparent}}
+  .cta-brilho{position:relative;overflow:hidden}
+  .cta-brilho::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35) 50%,transparent 70%);transform:translateX(-100%);animation:cta-brilho 2.6s ease-in-out infinite}
+  @keyframes cta-brilho{to{transform:translateX(100%)}}
+  @media (prefers-reduced-motion:reduce){.cta-pulsar,.cta-brilho::after{animation:none}}
+
+  /* ======================= ACABAMENTO PREMIUM ======================= */
+  /* Ver src/lib/site/premium.ts. Custo zero: é desenho, não IA. */
+
+  /* A MARCA. O monograma só existe aqui; sem o acabamento o cabeçalho
+     segue com o nome em texto, como sempre foi. */
+  html[data-acabamento="premium"] .monograma{height:34px;width:34px;flex:0 0 auto;border-radius:10px;box-shadow:0 6px 16px -8px rgb(0 0 0 / .45)}
+  html[data-acabamento="premium"] .logo{font-size:17px;font-weight:700;letter-spacing:-.02em}
+
+  /* MAIS AR. 60px era o ritmo de um site que cabe na tela; 76 é o de
+     um que quer ser lido. */
+  html[data-acabamento="premium"] section{padding:76px 0}
+
+  /* ESCALA. Título maior e mais fechado — a diferença entre um H2 de
+     painel e um H2 de capa de revista está quase toda no tracking. */
+  html[data-acabamento="premium"] h2{font-size:clamp(2rem,8.2vw,2.65rem);letter-spacing:-.038em}
+  html[data-acabamento="premium"] .hero h1{font-size:clamp(2.4rem,10.2vw,4rem);letter-spacing:-.042em;line-height:1}
+  html[data-acabamento="premium"] .intro{font-size:1.04rem;line-height:1.68;max-width:60ch}
+
+  /* ETIQUETAS em versalete espaçado, com o fio mais longo. É detalhe
+     de três pixels que o olho lê como cuidado. */
+  html[data-acabamento="premium"] .tag{font-size:10px;letter-spacing:.24em;gap:10px}
+  html[data-acabamento="premium"] .tag::before{width:28px;height:1px}
+  /* O topo mantém a etiqueta em pílula: lá ela assenta sobre foto, e
+     o fio comprido brigaria com a borda arredondada. */
+  html[data-acabamento="premium"] .hero .tag{letter-spacing:.18em}
+  html[data-acabamento="premium"] .hero .tag::before{width:6px;height:6px}
+
+  /* CARTÕES: contorno mais fino e sombra no lugar da borda dura. */
+  html[data-acabamento="premium"] .d,
+  html[data-acabamento="premium"] .pl{border-color:color-mix(in srgb,var(--linha) 55%,transparent);box-shadow:0 18px 44px -32px rgb(0 0 0 / .55)}
+
+  /* BOTÃO com um respiro a mais e letra espaçada. */
+  html[data-acabamento="premium"] .btn{letter-spacing:.02em;padding:15px 28px}
+
+  @media (min-width:760px){
+    html[data-acabamento="premium"] section{padding:104px 0}
+    html[data-acabamento="premium"] .monograma{height:38px;width:38px}
+    html[data-acabamento="premium"] .logo{font-size:19px}
+  }
+</style>
+<style id="valy-motion">
+/* :where() zera a especificidade do prefixo de propósito. MEDIDO: com
+   ".vm-tx .vm-tx-el.vm-in{transform:none}" a revelação vencia a seção
+   sticky no título do topo, e o título parava de crescer ao rolar.
+   Com :where, quem manda no hero é o motion que o embrulha; a
+   revelação continua cuidando do resto da página. */
+:where(.vm-tx) .vm-tx-el{opacity:0;transform:translateY(calc(18px * var(--vm-f,1)));transition:opacity var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1),transform var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1);transition-delay:var(--vm-d,0ms);will-change:opacity,transform}
+:where(.vm-tx) .vm-tx-el.vm-in{opacity:1;transform:none}
+/* Dentro do trilho sticky, o hero é do sticky: sem esconder nem
+   transformar por aqui. */
+.vm-st-trilho .vm-tx-el{opacity:1;transform:none;transition:none}
+/* A palavra: um span inline-block para o translateY funcionar. */
+.vm-tx .vm-tx-w{display:inline-block;opacity:0;transform:translateY(.45em);transition:opacity calc(var(--vm-dur,720ms) * .8) cubic-bezier(.22,1,.36,1),transform calc(var(--vm-dur,720ms) * .8) cubic-bezier(.22,1,.36,1);transition-delay:var(--vm-d,0ms)}
+.vm-tx .vm-in .vm-tx-w{opacity:1;transform:none}
+/* A etiqueta ganha um risco na cor do motion, que cresce ao entrar. */
+.vm-tx section > .wrap > .tag{position:relative;padding-left:18px}
+.vm-tx section > .wrap > .tag::before{content:"";position:absolute;left:0;top:50%;height:2px;width:0;background:var(--vm-cor,var(--marca));transition:width var(--vm-dur,720ms) ease .1s}
+.vm-tx section > .wrap > .tag.vm-in::before{width:12px}
+@media (prefers-reduced-motion:reduce){
+  .vm-tx .vm-tx-el,.vm-tx .vm-tx-w{opacity:1!important;transform:none!important;transition:none!important}
+  .vm-tx section > .wrap > .tag::before{width:12px}
+}
+
+
+.vm-im .vm-im-card{opacity:0;transform:translateY(calc(28px * var(--vm-f,1))) scale(.985);transition:opacity var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1),transform var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1);transition-delay:calc(var(--vm-i,0) * var(--vm-passo,80ms));will-change:opacity,transform}
+.vm-im .vm-im-card.vm-in{opacity:1;transform:none}
+/* A foto se revela de baixo para cima dentro da moldura. */
+.vm-im .vm-im-card img{clip-path:inset(100% 0 0 0);transition:clip-path calc(var(--vm-dur,720ms) * 1.1) cubic-bezier(.22,1,.36,1) calc(var(--vm-i,0) * var(--vm-passo,80ms) + 120ms),transform .5s cubic-bezier(.22,1,.36,1)}
+.vm-im .vm-im-card.vm-in img{clip-path:inset(0 0 0 0)}
+/* Reação ao mouse, só onde existe mouse. */
+.vm-im .item,.vm-im .d,.vm-im .p,.vm-im .pl,.vm-im .dep{transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+@media (hover:hover){
+  .vm-im .item:hover,.vm-im .d:hover,.vm-im .p:hover,.vm-im .pl:hover,.vm-im .dep:hover{transform:translateY(-3px);box-shadow:0 16px 36px -18px rgba(0,0,0,.35);border-color:color-mix(in srgb,var(--vm-cor,var(--marca)) 45%,transparent)}
+  .vm-im .item:hover img{transform:scale(1.04)}
+}
+@media (prefers-reduced-motion:reduce){
+  .vm-im .vm-im-card{opacity:1!important;transform:none!important;transition:none!important}
+  .vm-im .vm-im-card img{clip-path:none!important;transition:none!important}
+}
+
+
+.vm-fr .vm-fr-sec{position:relative;isolation:isolate;overflow-x:clip}
+.vm-fr .vm-fr-m{position:absolute;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(calc(46px * var(--vm-f,1)));opacity:calc(.55 * var(--vm-f,1));will-change:transform;width:56vw;max-width:680px;aspect-ratio:1}
+.vm-fr .vm-fr-m1{top:-22%;right:-16%;background:radial-gradient(circle,color-mix(in srgb,var(--vm-cor,var(--marca)) 30%,transparent) 0%,transparent 66%)}
+.vm-fr .vm-fr-m2{bottom:-26%;left:-14%;background:radial-gradient(circle,color-mix(in srgb,var(--vm-cor,var(--marca)) 18%,transparent) 0%,transparent 66%)}
+.vm-fr .vm-fr-sec::after{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(0,0,0,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.035) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse at 50% 50%,#000 10%,transparent 70%);pointer-events:none}
+.vm-fr-barra{position:fixed;top:0;left:0;height:3px;width:0;background:var(--vm-cor,var(--marca));z-index:99;pointer-events:none;transition:width .12s linear}
+@media (prefers-reduced-motion:reduce){
+  .vm-fr .vm-fr-m{transform:none!important}
+  .vm-fr-barra{display:none}
+}
+</style>
+<style data-video-topo="">.vv-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;pointer-events:none}.vv-video.tocando{opacity:1}@media (prefers-reduced-motion:reduce){.vv-video{display:none}}</style><style data-fotos-firmes="">img{color:transparent}img[src*="/fotos/"]{background-color:rgba(128,128,128,.14)}</style><script data-fotos-firmes="">document.addEventListener('error',function(e){var t=e.target;if(!t||t.tagName!=='IMG'||t.getAttribute('data-re'))return;var s=t.getAttribute('src')||'';if(s.indexOf('http')!==0)return;t.setAttribute('data-re','1');setTimeout(function(){t.src=s+(s.indexOf('?')<0?'?':'&')+'r=1'},1200)},true);</script><style id="_goober"> .go1475592160{height:0;}.go1671063245{height:auto;}.go1888806478{display:flex;flex-wrap:wrap;flex-grow:1;}@media (min-width:600px){.go1888806478{flex-grow:initial;min-width:288px;}}.go167266335{background-color:#313131;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;color:#fff;align-items:center;padding:6px 16px;border-radius:4px;box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.go3162094071{padding-left:20px;}.go3844575157{background-color:#313131;}.go1725278324{background-color:#43a047;}.go3651055292{background-color:#d32f2f;}.go4215275574{background-color:#ff9800;}.go1930647212{background-color:#2196f3;}.go946087465{display:flex;align-items:center;padding:8px 0;}.go703367398{display:flex;align-items:center;margin-left:auto;padding-left:16px;margin-right:-8px;}.go3963613292{width:100%;position:relative;transform:translateX(0);top:0;right:0;bottom:0;left:0;min-width:288px;}.go1141946668{box-sizing:border-box;display:flex;max-height:100%;position:fixed;z-index:1400;height:auto;width:auto;transition:top 300ms ease 0ms,right 300ms ease 0ms,bottom 300ms ease 0ms,left 300ms ease 0ms,max-width 300ms ease 0ms;pointer-events:none;max-width:calc(100% - 40px);}.go1141946668 .notistack-CollapseWrapper{padding:6px 0px;transition:padding 300ms ease 0ms;}@media (max-width:599.95px){.go1141946668{width:100%;max-width:calc(100% - 32px);}}.go3868796639 .notistack-CollapseWrapper{padding:2px 0px;}.go3118922589{top:14px;flex-direction:column;}.go1453831412{bottom:14px;flex-direction:column-reverse;}.go4027089540{left:20px;}@media (min-width:600px){.go4027089540{align-items:flex-start;}}@media (max-width:599.95px){.go4027089540{left:16px;}}.go2989568495{right:20px;}@media (min-width:600px){.go2989568495{align-items:flex-end;}}@media (max-width:599.95px){.go2989568495{right:16px;}}.go4034260886{left:50%;transform:translateX(-50%);}@media (min-width:600px){.go4034260886{align-items:center;}}</style></head>
+<body>
+
+<header data-bloco="cabecalho" data-bloco-nome="Cabeçalho">
+  <div class="wrap barra">
+    <a class="marca" href="#">
+      <svg class="monograma" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false"><defs><linearGradient id="valy-mono" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14161A"></stop><stop offset="1" stop-color="#0e1013"></stop></linearGradient></defs><rect width="40" height="40" rx="11" fill="url(#valy-mono)"></rect><rect x=".75" y=".75" width="38.5" height="38.5" rx="10.25" fill="none" stroke="rgba(255,255,255,.26)" stroke-width="1.5"></rect><text x="20" y="20" dy=".36em" text-anchor="middle" fill="#fff" font-family="'Archivo',Georgia,serif" font-weight="700" font-size="15" letter-spacing=".4">SM</text></svg>
+      <span class="logo" data-valy="marcaNome">SELECT MOTORS - Premium Cars</span>
+    </a>
+    <nav>
+      <a href="#itens" data-valy="navItens">Servicios</a>
+      <a href="#diferenciais" data-valy="navDiferenciais">Diferenciais</a>
+      <a href="#planos" data-valy="navPlanos">Formas de contratar</a>
+      
+      <a href="#faq" data-valy="navFaq">Perguntas</a>
+      <a href="#contato" data-valy="navContato">Contato</a>
+    </nav>
+    <a class="btn" href="https://wa.me/5959999999999">Pedir presupuesto</a>
+  </div>
+</header>
+
+
+
+
+<section class="hero" data-bloco="hero" data-bloco-nome="Topo" data-foto="capa"><video class="vv-video tocando" muted="" loop="" playsinline="" autoplay="" preload="none" poster="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-poster.webp" data-src="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-1280.mp4" data-src-movel="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-720.mp4" aria-hidden="true" tabindex="-1" disablepictureinpicture="" src="https://cdowco9uebrdby23.public.blob.vercel-storage.com/videos/servicos-locais/7288135-1280.mp4"></video>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="heroEyebrow" style="--vm-d: 0ms;">Cidade Del Leste</span>
+    <h1 data-valy="heroTitulo" class="vm-tx-el vm-in" style="--vm-d: 90ms;">SEMI NOVOS com procedência</h1>
+    <p class="sub vm-tx-el vm-in" data-valy="heroSubtitulo" style="--vm-d: 180ms;">SELECT MOTORS - Premium Cars valora lo que necesitas, te da el precio antes de empezar y entrega en el plazo acordado. Sin sorpresas al final.</p>
+    <div class="acoes vm-tx-el vm-in" style="--vm-d: 0ms;">
+      <a class="btn" href="https://wa.me/5959999999999" data-valy="heroBotao">Pedir presupuesto</a>
+      <a class="btn btn2" href="#itens" data-valy="heroBotao2">Ver servicios</a>
+    </div>
+    <div class="fatos vm-tx-el vm-in" style="--vm-d: 90ms;">
+      <span data-lista="fatos" data-i="0" data-campo="texto">Presupuesto sin compromiso</span>
+      <span data-lista="fatos" data-i="1" data-campo="texto">Trabajamos en Cidade Del Leste y alrededores</span>
+      <span data-lista="fatos" data-i="2" data-campo="texto">Tarjeta, efectivo y transferencia</span>
+    </div>
+    
+  </div>
+</section>
+
+<section class="numeros" data-bloco="numeros" data-bloco-nome="Números">
+  <div class="wrap grade-n">
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="0" style="--vm-i: 0;"><b data-campo="valor">Gratis</b><span data-campo="rotulo">Presupuesto</span></div>
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="1" style="--vm-i: 1;"><b data-campo="valor">4,8</b><span data-campo="rotulo">Valoración de clientes</span></div>
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="2" style="--vm-i: 2;"><b data-campo="valor">+300</b><span data-campo="rotulo">Trabajos realizados</span></div>
+    <div class="n vm-im-card vm-in" data-lista="numeros" data-i="3" style="--vm-i: 3;"><b data-campo="valor">24h</b><span data-campo="rotulo">Respuesta del presupuesto</span></div>
+    
+  </div>
+</section>
+
+<section class="itens vm-fr-sec" id="itens" data-bloco="itens" data-bloco-nome="Servicios"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-16px, -19.8px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(16px, 19.8px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="itensTag" style="--vm-d: 180ms;">Servicios</span>
+    <h2 data-valy="itensTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Lo que hacemos, con alcance y plazo definidos</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="itensIntro" style="--vm-d: 90ms;">Cada servicio empieza por una valoración de lo que hay que hacer. El presupuesto sale con alcance, plazo y precio, y es el que vale hasta el final del trabajo.</p>
+    
+    <div class="grade">
+      <article class="item vm-im-card vm-in" data-item="0" data-lista="itens" data-i="0" style="--vm-i: 0;">
+        <img src="https://cdowco9uebrdby23.public.blob.vercel-storage.com/fotos/servicos-locais/8961699-900.webp" alt="Presupuesto sin compromiso" loading="lazy" data-foto="item:0">
+        <div class="item-txt">
+          <h3 data-campo="nome">Presupuesto sin compromiso</h3>
+          <p class="pq" data-campo="paraQuem">Para quien necesita presupuesto sin compromiso con plazo acordado.</p>
+          <p data-campo="texto">Valoramos lo que hay que hacer, damos el presupuesto con alcance y plazo, y solo empezamos tras tu aprobación. El precio acordado es el precio final.</p>
+          
+        </div>
+      </article>
+    </div>
+    
+  </div>
+</section>
+
+<section class="dif vm-fr-sec" id="diferenciais" data-bloco="diferenciais" data-bloco-nome="Por qué llamarnos"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-16px, -19.8px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(16px, 19.8px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="difTag" style="--vm-d: 180ms;">Por qué llamarnos</span>
+    <h2 data-valy="difTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Lo que puedes exigirnos</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="difIntro" style="--vm-d: 90ms;">Son compromisos prácticos, del primer contacto a la entrega, y todos aparecen por escrito en el presupuesto que recibes.</p>
+    
+    <div class="grade-d">
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="0" style="--vm-i: 0;"><h3 data-campo="titulo">Presupuesto sin coste</h3><p data-campo="texto">Valorar y presupuestar no se cobra. Solo pagas si apruebas el trabajo.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="1" style="--vm-i: 1;"><h3 data-campo="titulo">Precio cerrado</h3><p data-campo="texto">El precio aprobado es el final. Un cambio de alcance se habla antes, nunca se cobra después.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="2" style="--vm-i: 2;"><h3 data-campo="titulo">Plazo acordado</h3><p data-campo="texto">Decimos cuándo entregamos y cumplimos. Si algo se retrasa, te enteras antes.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="3" style="--vm-i: 3;"><h3 data-campo="titulo">Trato directo</h3><p data-campo="texto">Hablas con quien ejecuta el trabajo, sin intermediarios ni teléfonos interminables.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="4" style="--vm-i: 4;"><h3 data-campo="titulo">Material detallado</h3><p data-campo="texto">Lo que se va a usar está en el presupuesto, con marca y cantidad.</p></div>
+      <div class="d vm-im-card vm-in" data-lista="diferenciais" data-i="5" style="--vm-i: 5;"><h3 data-campo="titulo">Lo dejamos limpio</h3><p data-campo="texto">Terminado el trabajo, el espacio queda ordenado. Eso forma parte del servicio.</p></div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="passos vm-fr-sec" data-bloco="passos" data-bloco-nome="Cómo funciona"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-16px, -19.8px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(16px, 19.8px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="passosTag" style="--vm-d: 180ms;">Cómo funciona</span>
+    <h2 data-valy="passosTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Del primer contacto a la entrega</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="passosIntro" style="--vm-d: 90ms;">Un guion fijo, el mismo para cada cliente: es lo que evita malentendidos a mitad de camino.</p>
+    
+    <div class="grade-p">
+      <div class="p vm-im-card vm-in" data-lista="passos" data-i="0" style="--vm-i: 0;"><h3 data-campo="titulo">Cuéntanos qué necesitas</h3><p data-campo="texto">Mándanos un mensaje describiendo el trabajo. Una foto ayuda mucho a adelantar la valoración.</p></div>
+      <div class="p vm-im-card vm-in" data-lista="passos" data-i="1" style="--vm-i: 1;"><h3 data-campo="titulo">Recibe el presupuesto</h3><p data-campo="texto">Valoramos y enviamos el precio con alcance y plazo. Sin compromiso de aceptar.</p></div>
+      <div class="p vm-im-card vm-in" data-lista="passos" data-i="2" style="--vm-i: 2;"><h3 data-campo="titulo">Lo apruebas y ejecutamos</h3><p data-campo="texto">Acordamos la fecha y hacemos el trabajo en el plazo fijado, con el precio aprobado.</p></div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="planos" id="planos" data-bloco="planos" data-bloco-nome="Formas de contratar">
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="planosTag" style="--vm-d: 180ms;">Formas de contratar</span>
+    <h2 data-valy="planosTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Tres formas de trabajar con nosotros</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="planosIntro" style="--vm-d: 90ms;">La ejecución es la misma en las tres. Lo que cambia es el compromiso de plazo, la prioridad de atención y cómo se acuerda el precio.</p>
+    
+    <div class="grade-pl">
+      <div class="pl vm-im-card vm-in" data-lista="planos" data-i="0" style="--vm-i: 0;">
+        <h3 data-campo="nome">Servicio puntual</h3>
+        <p class="res" data-campo="resumo">Nos llamas, presupuestamos y ejecutamos ese trabajo concreto.</p>
+        <ul data-campo="inclui" data-multi="">
+          <li>Presupuesto sin coste</li>
+          <li>Precio cerrado antes</li>
+          <li>Garantía registrada</li>
+        </ul>
+        <a class="btn btn-pl" href="https://wa.me/5959999999999">Escribir por WhatsApp</a>
+      </div>
+      <div class="pl vm-im-card vm-in" data-lista="planos" data-i="1" style="--vm-i: 1;">
+        <h3 data-campo="nome">Pack de servicios</h3>
+        <p class="res" data-campo="resumo">Varios trabajos en el mismo presupuesto, con mejor precio.</p>
+        <ul data-campo="inclui" data-multi="">
+          <li>Descuento por conjunto</li>
+          <li>Un único calendario</li>
+          <li>Un responsable para todo</li>
+        </ul>
+        <a class="btn btn-pl" href="https://wa.me/5959999999999">Escribir por WhatsApp</a>
+      </div>
+      <div class="pl vm-im-card vm-in" data-lista="planos" data-i="2" style="--vm-i: 2;">
+        <h3 data-campo="nome">Contrato mensual</h3>
+        <p class="res" data-campo="resumo">Para quien necesita mantenimiento recurrente y atención prioritaria.</p>
+        <ul data-campo="inclui" data-multi="">
+          <li>Precio fijo al mes</li>
+          <li>Visitas programadas</li>
+          <li>Prioridad en urgencias</li>
+        </ul>
+        <a class="btn btn-pl" href="https://wa.me/5959999999999">Escribir por WhatsApp</a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="faq vm-fr-sec" id="faq" data-bloco="faq" data-bloco-nome="Preguntas frecuentes"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-16px, -19.8px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(16px, 19.8px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="faqTag" style="--vm-d: 180ms;">Preguntas frecuentes</span>
+    <h2 data-valy="faqTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Lo que preguntan antes de contratar</h2>
+    
+    <div class="perguntas">
+      <details data-lista="faq" data-i="0" class="vm-im-card vm-in" style="--vm-i: 0;"><summary data-campo="pergunta">¿El presupuesto se cobra?</summary><p data-campo="resposta">No. Valorar y presupuestar es sin compromiso: solo pagas si lo apruebas.</p></details>
+      <details data-lista="faq" data-i="1" class="vm-im-card vm-in" style="--vm-i: 1;"><summary data-campo="pergunta">¿En cuánto tiempo recibo el presupuesto?</summary><p data-campo="resposta">Normalmente el mismo día, y como máximo en 24 horas tras la valoración.</p></details>
+      <details data-lista="faq" data-i="2" class="vm-im-card vm-in" style="--vm-i: 2;"><summary data-campo="pergunta">¿Trabajáis en mi zona?</summary><p data-campo="resposta">Cubrimos Cidade Del Leste y localidades cercanas. Mándanos tu dirección y te lo confirmamos.</p></details>
+      <details data-lista="faq" data-i="3" class="vm-im-card vm-in" style="--vm-i: 3;"><summary data-campo="pergunta">¿El precio puede cambiar durante el trabajo?</summary><p data-campo="resposta">El precio aprobado es el final. Si aparece algo fuera del alcance, lo hablamos antes de hacer nada.</p></details>
+      <details data-lista="faq" data-i="4" class="vm-im-card vm-in" style="--vm-i: 4;"><summary data-campo="pergunta">¿Qué formas de pago aceptáis?</summary><p data-campo="resposta">Tarjeta, efectivo y transferencia, acordadas junto con el presupuesto.</p></details>
+      <details data-lista="faq" data-i="5" class="vm-im-card vm-in" style="--vm-i: 5;"><summary data-campo="pergunta">¿Dais garantía?</summary><p data-campo="resposta">Sí. La garantía del trabajo queda registrada en el presupuesto que apruebas.</p></details>
+    </div>
+    
+  </div>
+</section>
+
+<section class="historia vm-fr-sec" data-bloco="historia" data-bloco-nome="Nuestra historia"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-16px, -19.8px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(16px, 19.8px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="historiaTag" style="--vm-d: 90ms;">Nuestra historia</span>
+    <h2 data-valy="historiaTitulo" class="vm-tx-el vm-in" style="--vm-d: 180ms;">Un trabajo que creció por recomendación</h2>
+    
+    <p data-valy="historiaTexto" class="vm-tx-el vm-in" style="--vm-d: 0ms;">SELECT MOTORS - Premium Cars empezó pequeño, atendiendo a quien nos recomendaba. No hubo publicidad: hubo trabajo entregado en plazo y presupuesto cumplido. Eso trajo al siguiente cliente, y al siguiente. Hoy trabajamos en Cidade Del Leste y alrededores, con la misma forma de hacer las cosas: presupuesto claro antes, trabajo bien hecho después.</p>
+    
+  </div>
+</section>
+
+<section class="depo" data-bloco="depoimentos" data-bloco-nome="Opiniones">
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="depoTag" style="--vm-d: 90ms;">Opiniones</span>
+    <h2 data-valy="depoTitulo" class="vm-tx-el vm-in" style="--vm-d: 180ms;">Lo que cuentan los clientes</h2>
+    
+    <div class="grade-dep">
+      <div class="dep vm-im-card vm-in" data-lista="depoimentos" data-i="0" style="--vm-i: 0;">
+        <div class="estrelas" aria-label="cinco estrellas">★★★★★</div>
+        <p data-campo="texto">“Presupuesto el mismo día y trabajo en plazo. Cobraron exactamente lo acordado.”</p>
+        <div class="assina">
+          <span class="ini">C</span>
+          <span><b data-campo="autor">Cliente atendido</b><em data-campo="detalhe">trabajo en vivienda</em></span>
+        </div>
+      </div>
+      <div class="dep vm-im-card vm-in" data-lista="depoimentos" data-i="1" style="--vm-i: 1;">
+        <div class="estrelas" aria-label="cinco estrellas">★★★★★</div>
+        <p data-campo="texto">“Explicaron lo que hacía falta y lo que no. No me colocaron nada de más.”</p>
+        <div class="assina">
+          <span class="ini">C</span>
+          <span><b data-campo="autor">Cliente de la zona</b><em data-campo="detalhe">presupuesto</em></span>
+        </div>
+      </div>
+      <div class="dep vm-im-card vm-in" data-lista="depoimentos" data-i="2" style="--vm-i: 2;">
+        <div class="estrelas" aria-label="cinco estrellas">★★★★★</div>
+        <p data-campo="texto">“Terminaron y lo dejaron todo limpio. Parece un detalle, pero se nota.”</p>
+        <div class="assina">
+          <span class="ini">C</span>
+          <span><b data-campo="autor">Cliente de Cidade Del Leste</b><em data-campo="detalhe">trabajo terminado</em></span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="chamada" data-bloco="chamada" data-bloco-nome="Chamada final">
+  <div class="wrap">
+    <h2 data-valy="chamadaTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">¿Necesitas un presupuesto?</h2>
+    
+    <p data-valy="chamadaTexto" class="vm-tx-el vm-in" style="--vm-d: 90ms;">Cuéntanos qué necesitas y te respondemos enseguida.</p>
+    <a class="btn" href="https://wa.me/5959999999999" data-valy="chamadaBotao">Escribir por WhatsApp</a>
+    
+  </div>
+</section>
+
+<section class="contato vm-fr-sec" id="contato" data-bloco="contato" data-bloco-nome="Contacto"><div class="vm-fr-m vm-fr-m2" style="transform: translate3d(-16px, -19.8px, 0px);"></div><div class="vm-fr-m vm-fr-m1" style="transform: translate3d(16px, 19.8px, 0px);"></div>
+  <div class="wrap">
+    <span class="tag vm-tx-el vm-in" data-valy="contatoTag" style="--vm-d: 180ms;">Contacto</span>
+    <h2 data-valy="contatoTitulo" class="vm-tx-el vm-in" style="--vm-d: 0ms;">Dónde estamos y cómo pedir tu presupuesto</h2>
+    <p class="intro vm-tx-el vm-in" data-valy="contatoTexto" style="--vm-d: 90ms;">Trabajamos en Cidade Del Leste y alrededores. Para pedir presupuesto, mándanos un mensaje contando qué necesitas.</p>
+    
+    <div class="cols">
+      <div class="campo vm-im-card vm-in" style="--vm-i: 0;"><h3>Dirección</h3><p>Santa Rita - PY | Ruta 6</p></div>
+      <div class="campo vm-im-card vm-in" style="--vm-i: 1;"><h3>Teléfono y WhatsApp</h3><a href="tel:+595 99 9999 9999">+595 99 9999 9999</a></div>
+      <div class="campo vm-im-card vm-in" style="--vm-i: 2;"><h3>Horario</h3><p data-valy="contatoAtendimento">Todos los días, en horario comercial.</p></div>
+    </div>
+    <div class="mapa"><iframe src="https://www.google.com/maps?q=Santa%20Rita%20-%20PY%20%7C%20Ruta%206%2C%20Cidade%20Del%20Leste%2C%20Paraguai&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Cómo llegar"></iframe></div>
+    
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" data-valy="rodapeTexto">© 2026 SELECT MOTORS - Premium Cars em Cidade Del Leste. Todos os direitos reservados.</div>
+</footer>
+
+<a class="zap" href="https://wa.me/5959999999999" data-valy="zapFlutuante">WhatsApp</a>
+
+<!-- Barra fixa do celular (ver .dock no CSS): o mesmo destino do
+     botão do topo, com o ícone do WhatsApp quando há telefone. No
+     desktop ela some e a pílula acima volta. -->
+<div class="dock"><a class="btn" href="https://wa.me/5959999999999"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.7-6.1c-.3-.1-1.5-.7-1.8-.8-.2-.1-.4-.1-.6.1l-.8 1c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.3 5.3 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.5 2.5 0 0 0 1.6-1.1c.2-.5.2-1 .1-1.1l-.3-.2Z"></path></svg>Pedir presupuesto</a></div>
+
+<script>
+/* Números que contam ao entrar na tela.
+   ------------------------------------------------------------------
+   Roda só quando o bloco aparece, uma vez, e apenas em valores que são
+   número de verdade — "6h-22h" e "4,8" ficam como estão em vez de
+   virarem uma contagem sem sentido.
+
+   Quem pediu menos animação no sistema operacional vê o valor final
+   direto: efeito bonito não vale tontura em ninguém. */
+(function () {
+  var reduzir = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var alvos = document.querySelectorAll(".n b");
+  if (!alvos.length || reduzir || !("IntersectionObserver" in window)) return;
+
+  function anima(el) {
+    var bruto = el.textContent.trim();
+    /* ESTA EXPRESSÃO ESTAVA SEM AS BARRAS INVERTIDAS: era
+       /^(d+)([^d]*)$/, que procura a LETRA "d" e nunca casa com um
+       número. Resultado: os números nunca contaram, em nenhum site
+       gerado até 08/09/2026. Achado ao construir o pacote de
+       movimento, que tinha o mesmo trabalho para fazer.
+
+       Agora aceita prefixo e decimal também — "4,8" e "+500" são o
+       que aparece de verdade na faixa. */
+    var casa = bruto.match(/^([^0-9]*)([0-9]+(?:[.,][0-9]+)?)(.*)$/);
+    if (!casa) return;
+    var prefixo = casa[1] || "";
+    var corpo = casa[2];
+    var sufixo = casa[3] || "";
+    var virgula = corpo.indexOf(",") >= 0;
+    var decimais = /[.,]/.test(corpo) ? corpo.split(/[.,]/)[1].length : 0;
+    var fim = parseFloat(corpo.replace(",", "."));
+    if (!isFinite(fim) || fim < 2) return;
+    var inicio = null;
+    var dur = 1100;
+    function escrever(v) {
+      var t = v.toFixed(decimais);
+      if (virgula) t = t.replace(".", ",");
+      el.textContent = prefixo + t + sufixo;
+    }
+    function passo(t) {
+      if (!inicio) inicio = t;
+      var f = Math.min((t - inicio) / dur, 1);
+      escrever(fim * (1 - Math.pow(1 - f, 3)));
+      if (f < 1) requestAnimationFrame(passo);
+    }
+    escrever(0);
+    requestAnimationFrame(passo);
+  }
+
+  var obs = new IntersectionObserver(function (itens) {
+    itens.forEach(function (i) {
+      if (i.isIntersecting) {
+        anima(i.target);
+        obs.unobserve(i.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  alvos.forEach(function (el) { obs.observe(el); });
+})();
+</script>
+<script data-dur="720" data-fator="1" data-motion="texto-revela">
+(function(){
+
+  var cfg = (document.currentScript && document.currentScript.dataset) || {};
+  var quieto = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var estreito = !!(window.matchMedia && window.matchMedia("(max-width: 700px)").matches);
+  if (estreito && cfg.mobile === "0") return;
+  var DUR = parseInt(cfg.dur || "720", 10) || 720;
+  var FATOR = parseFloat(cfg.fator || "1") || 1;
+  var COR = cfg.cor || "";
+  var raiz = document.documentElement;
+  if (COR) raiz.style.setProperty("--vm-cor", COR);
+
+  if (!("IntersectionObserver" in window)) return;
+  raiz.style.setProperty("--vm-dur", DUR + "ms");
+  raiz.style.setProperty("--vm-f", String(FATOR));
+
+  var SEL = ".hero .tag, .hero h1, .hero p.sub, .hero .acoes, .hero .fatos, section > .wrap > .tag, section > .wrap > h2, section > .wrap > .intro, section > .wrap > p, .chamada h2, .chamada p";
+  var alvos = Array.prototype.slice.call(document.querySelectorAll(SEL));
+
+  /* Só agora os elementos somem — depois de o script ter certeza de
+     que vai devolvê-los. Um erro antes desta linha deixa a página
+     inteira, que é como uma animação deve falhar. */
+  raiz.classList.add("vm-tx");
+
+  /* No modo marcante, o título vira palavras. Cria os spans por DOM:
+     o texto nunca volta para dentro do HTML como string. */
+  var porPalavra = FATOR >= 1.5;
+  alvos.forEach(function(el, idx){
+    el.classList.add("vm-tx-el");
+    /* Escada curta dentro do mesmo bloco: etiqueta, título, texto. */
+    el.style.setProperty("--vm-d", (idx % 3) * 90 + "ms");
+    if (porPalavra && (el.tagName === "H1" || el.tagName === "H2") && el.childNodes.length === 1 && el.firstChild.nodeType === 3) {
+      var palavras = el.textContent.split(/(\s+)/);
+      el.textContent = "";
+      var n = 0;
+      palavras.forEach(function(p){
+        if (!p) return;
+        if (/^\s+$/.test(p)) { el.appendChild(document.createTextNode(" ")); return; }
+        var s = document.createElement("span");
+        s.className = "vm-tx-w";
+        s.style.setProperty("--vm-d", (n++ * 55) + "ms");
+        s.textContent = p;
+        el.appendChild(s);
+      });
+    }
+  });
+
+  if (quieto) { alvos.forEach(function(el){ el.classList.add("vm-in"); }); return; }
+
+  var obs = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (!e.isIntersecting) return;
+      e.target.classList.add("vm-in");
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.15, rootMargin: "0px 0px -6% 0px" });
+  alvos.forEach(function(el){ obs.observe(el); });
+  window.addEventListener("pagehide", function(){ obs.disconnect(); });
+})();
+</script>
+<script data-dur="720" data-fator="1" data-motion="imagem-entra">
+(function(){
+
+  var cfg = (document.currentScript && document.currentScript.dataset) || {};
+  var quieto = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var estreito = !!(window.matchMedia && window.matchMedia("(max-width: 700px)").matches);
+  if (estreito && cfg.mobile === "0") return;
+  var DUR = parseInt(cfg.dur || "720", 10) || 720;
+  var FATOR = parseFloat(cfg.fator || "1") || 1;
+  var COR = cfg.cor || "";
+  var raiz = document.documentElement;
+  if (COR) raiz.style.setProperty("--vm-cor", COR);
+
+  if (!("IntersectionObserver" in window)) return;
+  raiz.style.setProperty("--vm-dur", DUR + "ms");
+  raiz.style.setProperty("--vm-f", String(FATOR));
+  /* O intervalo da escada cresce com a intensidade. */
+  raiz.style.setProperty("--vm-passo", Math.round(80 * FATOR) + "ms");
+
+  var GRADES = [".grade", ".grade-d", ".grade-p", ".grade-pl", ".grade-dep", ".grade-n", ".perguntas", ".grid-fotos", ".cols"];
+  var alvos = [];
+  GRADES.forEach(function(sel){
+    document.querySelectorAll(sel).forEach(function(g){
+      for (var i = 0; i < g.children.length; i++) {
+        g.children[i].classList.add("vm-im-card");
+        g.children[i].style.setProperty("--vm-i", String(i % 6));
+        alvos.push(g.children[i]);
+      }
+    });
+  });
+
+  raiz.classList.add("vm-im");
+  if (quieto) { alvos.forEach(function(el){ el.classList.add("vm-in"); }); return; }
+
+  var obs = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if (!e.isIntersecting) return;
+      e.target.classList.add("vm-in");
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+  alvos.forEach(function(el){ obs.observe(el); });
+  window.addEventListener("pagehide", function(){ obs.disconnect(); });
+})();
+</script>
+<script data-dur="720" data-fator="1" data-motion="fundo-reativo">
+(function(){
+
+  var cfg = (document.currentScript && document.currentScript.dataset) || {};
+  var quieto = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  var estreito = !!(window.matchMedia && window.matchMedia("(max-width: 700px)").matches);
+  if (estreito && cfg.mobile === "0") return;
+  var DUR = parseInt(cfg.dur || "720", 10) || 720;
+  var FATOR = parseFloat(cfg.fator || "1") || 1;
+  var COR = cfg.cor || "";
+  var raiz = document.documentElement;
+  if (COR) raiz.style.setProperty("--vm-cor", COR);
+
+  var secoes = Array.prototype.slice.call(document.querySelectorAll("section.itens, section.dif, section.passos, section.faq, section.contato, section.historia"));
+  if (!secoes.length) return;
+  raiz.style.setProperty("--vm-f", String(FATOR));
+  raiz.classList.add("vm-fr");
+
+  var manchas = [];
+  secoes.forEach(function(s){
+    s.classList.add("vm-fr-sec");
+    var a = document.createElement("div"); a.className = "vm-fr-m vm-fr-m1";
+    var b = document.createElement("div"); b.className = "vm-fr-m vm-fr-m2";
+    s.insertBefore(a, s.firstChild);
+    s.insertBefore(b, s.firstChild);
+    manchas.push(a, b);
+  });
+
+  var barra = document.createElement("div");
+  barra.className = "vm-fr-barra";
+  document.body.appendChild(barra);
+
+  if (quieto) return;
+
+  var suave = DUR >= 1000 ? 0.04 : DUR <= 500 ? 0.14 : 0.08;
+  var mx = 0, my = 0, ax = 0, ay = 0, pedido = 0, ativo = false, temMouse = false;
+
+  function quadro(){
+    pedido = 0;
+    ax += (mx - ax) * suave;
+    ay += (my - ay) * suave;
+    var dx = (ax * 40 * FATOR).toFixed(1), dy = (ay * 40 * FATOR).toFixed(1);
+    for (var i = 0; i < manchas.length; i++) {
+      var s = i % 2 ? -1 : 1;
+      manchas[i].style.transform = "translate3d(" + (s * dx) + "px," + (s * dy) + "px,0)";
+    }
+    var alt = document.documentElement.scrollHeight - window.innerHeight;
+    barra.style.width = (alt > 0 ? Math.max(0, Math.min(1, window.scrollY / alt)) * 100 : 0) + "%";
+    if (Math.abs(mx - ax) > 0.002 || Math.abs(my - ay) > 0.002) pedido = requestAnimationFrame(quadro);
+    else ativo = false;
+  }
+  function acordar(){ if (!ativo) { ativo = true; pedido = requestAnimationFrame(quadro); } }
+
+  /* Mouse: de -1 a 1 em cada eixo. Rolagem: só o eixo Y, para o
+     celular ter movimento sem cursor. */
+  function aoMover(e){ temMouse = true; mx = (e.clientX / window.innerWidth) * 2 - 1; my = (e.clientY / window.innerHeight) * 2 - 1; acordar(); }
+  function aoRolar(){
+    if (!temMouse) { var alt = document.documentElement.scrollHeight - window.innerHeight; my = alt > 0 ? (window.scrollY / alt) * 2 - 1 : 0; }
+    acordar();
+  }
+  window.addEventListener("mousemove", aoMover, { passive: true });
+  window.addEventListener("scroll", aoRolar, { passive: true });
+  aoRolar();
+
+  window.addEventListener("pagehide", function(){
+    window.removeEventListener("mousemove", aoMover);
+    window.removeEventListener("scroll", aoRolar);
+    cancelAnimationFrame(pedido);
+  });
+})();
+</script><div class="vm-fr-barra" style="width: 71.4286%;"></div>
+
+<script data-video-topo="">(function(){var l=document.querySelectorAll('.vv-video');if(!l.length)return;var c=navigator.connection;if((c&&(c.saveData||/2g|3g/.test(c.effectiveType||'')))||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;function go(){l.forEach(function(v){var p=v.parentElement;if(p&&getComputedStyle(p).position==='static')p.style.position='relative';v.src=innerWidth<=760?v.getAttribute('data-src-movel'):v.getAttribute('data-src');v.muted=true;v.addEventListener('playing',function(){v.classList.add('tocando')},{once:true});var t=v.play();if(t&&t.catch)t.catch(function(){})})}if(document.readyState==='complete')setTimeout(go,1200);else addEventListener('load',function(){setTimeout(go,1200)})})();</script>
+</body>
