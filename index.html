@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head><script src="https://myhub.ia.br/canvas-vendor/tailwind.js"></script>
@@ -162,6 +161,31 @@ html[data-acabamento="premium"] .d,html[data-acabamento="premium"] .pl{border-co
 html[data-acabamento="premium"] .btn{letter-spacing:.02em;padding:15px 28px}
 @media (min-width:760px){html[data-acabamento="premium"] section{padding:104px 0}html[data-acabamento="premium"] .monograma{height:38px;width:38px}html[data-acabamento="premium"] .logo{font-size:19px}}
 .monograma{height:34px;width:34px;flex:0 0 auto}
+
+/* Slider de marcas - destaque central */
+.dc{padding:56px 16px 48px;text-align:center;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,#ffffff 0%,#f1f2f4 55%,#dfe2e6 100%)}
+.dc-cab span{font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#8a8f98}
+.dc-cab h2{font-size:clamp(1.6rem,4vw,2.4rem);letter-spacing:-.03em;color:#111318;margin-top:8px}
+.dc-palco{position:relative;height:260px;margin-top:28px}
+.dc-card{position:absolute;left:50%;top:50%;width:200px;height:200px;border-radius:28px;display:grid;place-items:center;cursor:pointer;background:linear-gradient(160deg,#fff,#f6f7f9);border:1px solid #e3e5e9;box-shadow:0 30px 50px -30px rgba(0,0,0,.35),inset 0 1px 0 #fff;transition:transform .7s cubic-bezier(.22,.8,.2,1),opacity .7s,filter .7s,box-shadow .7s}
+.dc-card img{width:58%;height:58%;object-fit:contain;pointer-events:none}
+.dc-card.p0{transform:translate(-50%,-50%) scale(1.15);z-index:5;box-shadow:0 40px 70px -30px rgba(0,0,0,.45),0 0 0 1px #d0d4da}
+.dc-card.p1{transform:translate(calc(-50% + 230px),-50%) scale(.72);z-index:4;opacity:.75;filter:saturate(.6)}
+.dc-card.n1{transform:translate(calc(-50% - 230px),-50%) scale(.72);z-index:4;opacity:.75;filter:saturate(.6)}
+.dc-card.p2{transform:translate(calc(-50% + 400px),-50%) scale(.5);z-index:3;opacity:.4;filter:saturate(.3)}
+.dc-card.n2{transform:translate(calc(-50% - 400px),-50%) scale(.5);z-index:3;opacity:.4;filter:saturate(.3)}
+.dc-card.oc{transform:translate(-50%,-50%) scale(.3);opacity:0;pointer-events:none}
+.dc-txt{font-family:'Archivo',sans-serif;font-size:20px;font-weight:800;letter-spacing:-.01em;color:#111318;line-height:1.1;padding:0 12px;pointer-events:none}
+.dc-nome{font-weight:700;font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:#2a2d33;margin-top:14px;min-height:20px}
+.dc-ctrl{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:22px}
+.dc-seta{width:42px;height:42px;border-radius:50%;border:1px solid #d5d8dd;background:#fff;font-size:24px;line-height:1;color:#2a2d33;cursor:pointer;transition:.2s}
+.dc-seta:hover{background:#111318;color:#fff}
+.dc-pontos{display:flex;gap:8px}
+.dc-pontos i{width:8px;height:8px;border-radius:99px;background:#c7cbd1;cursor:pointer;transition:.3s}
+.dc-pontos i.at{width:26px;background:#111318}
+@media(max-width:759px){.dc-palco{height:200px}.dc-card{width:140px;height:140px;border-radius:20px}.dc-txt{font-size:15px}
+.dc-card.p1{transform:translate(calc(-50% + 130px),-50%) scale(.65)}.dc-card.n1{transform:translate(calc(-50% - 130px),-50%) scale(.65)}
+.dc-card.p2,.dc-card.n2{opacity:0}}
 </style>
 <style id="valy-motion">
 :where(.vm-tx) .vm-tx-el{opacity:0;transform:translateY(calc(18px * var(--vm-f,1)));transition:opacity var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1),transform var(--vm-dur,720ms) cubic-bezier(.22,1,.36,1);transition-delay:var(--vm-d,0ms);will-change:opacity,transform}
@@ -229,16 +253,18 @@ html[data-acabamento="premium"] .btn{letter-spacing:.02em;padding:15px 28px}
     <div class="n"><b>24h</b><span>Resposta do orçamento</span></div>
   </div>
 </section>
-<section class="dc">
+
+<div class="dc" aria-label="Marcas disponíveis">
   <div class="dc-cab"><span>Marcas no estoque</span><h2>As marcas que você procura</h2></div>
-  <div class="dc-palco"><div class="dc-card n2" data-i="0"><img src="https://cdn.simpleicons.org/porsche" alt="Porsche"></div><div class="dc-card n1" data-i="1"><img src="https://cdn.simpleicons.org/ferrari" alt="Ferrari"></div><div class="dc-card p0" data-i="2"><img src="https://cdn.simpleicons.org/lamborghini" alt="Lamborghini"></div><div class="dc-card p1" data-i="3"><img src="https://cdn.simpleicons.org/bmw" alt="BMW"></div><div class="dc-card p2" data-i="4"><b class="dc-txt">Mercedes-Benz</b></div><div class="dc-card oc" data-i="5"><img src="https://cdn.simpleicons.org/audi" alt="Audi"></div><div class="dc-card oc" data-i="6"><img src="https://cdn.simpleicons.org/ford" alt="Ford"></div><div class="dc-card oc" data-i="7"><img src="https://cdn.simpleicons.org/chevrolet" alt="Chevrolet"></div><div class="dc-card oc" data-i="8"><img src="https://cdn.simpleicons.org/toyota" alt="Toyota"></div><div class="dc-card oc" data-i="9"><img src="https://cdn.simpleicons.org/nissan" alt="Nissan"></div><div class="dc-card oc" data-i="10"><img src="https://cdn.simpleicons.org/subaru" alt="Subaru"></div><div class="dc-card oc" data-i="11"><img src="https://cdn.simpleicons.org/volkswagen" alt="Volkswagen"></div></div>
-  <div class="dc-nome">Lamborghini</div>
+  <div class="dc-palco"></div>
+  <div class="dc-nome"></div>
   <div class="dc-ctrl">
-    <button class="dc-seta" data-d="-1" aria-label="Anterior">‹</button>
-    <div class="dc-pontos"><i data-i="0" class=""></i><i data-i="1" class=""></i><i data-i="2" class="at"></i><i data-i="3" class=""></i><i data-i="4" class=""></i><i data-i="5" class=""></i><i data-i="6" class=""></i><i data-i="7" class=""></i><i data-i="8" class=""></i><i data-i="9" class=""></i><i data-i="10" class=""></i><i data-i="11" class=""></i></div>
-    <button class="dc-seta" data-d="1" aria-label="Próximo">›</button>
+    <button class="dc-seta" data-d="-1" aria-label="Anterior">&#8249;</button>
+    <div class="dc-pontos"></div>
+    <button class="dc-seta" data-d="1" aria-label="Próximo">&#8250;</button>
   </div>
-</section>
+</div>
+
 <section class="itens" id="itens">
   <div class="wrap">
     <span class="tag">Serviços</span>
@@ -461,6 +487,33 @@ html[data-acabamento="premium"] .btn{letter-spacing:.02em;padding:15px 28px}
 </script>
 <script>
 (function(){var l=document.querySelectorAll('.vv-video');if(!l.length)return;var c=navigator.connection;if((c&&(c.saveData||/2g|3g/.test(c.effectiveType||'')))||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;function go(){l.forEach(function(v){v.src=innerWidth<=760?v.getAttribute('data-src-movel'):v.getAttribute('data-src');v.muted=true;v.addEventListener('playing',function(){v.classList.add('tocando')},{once:true});var t=v.play();if(t&&t.catch)t.catch(function(){})})}if(document.readyState==='complete')setTimeout(go,1200);else addEventListener('load',function(){setTimeout(go,1200)})})();
+</script>
+<script>
+(function(){
+  var m=[["porsche","Porsche"],["ferrari","Ferrari"],["lamborghini","Lamborghini"],["bmw","BMW"],["","Mercedes-Benz"],["audi","Audi"],["ford","Ford"],["chevrolet","Chevrolet"],["toyota","Toyota"],["nissan","Nissan"],["subaru","Subaru"],["volkswagen","Volkswagen"]];
+  var sec=document.querySelector(".dc");if(!sec)return;
+  var palco=sec.querySelector(".dc-palco"),pts=sec.querySelector(".dc-pontos"),nome=sec.querySelector(".dc-nome");
+  var N=m.length,at=0,t;
+  palco.innerHTML=m.map(function(b,i){return '<div class="dc-card" data-i="'+i+'">'+(b[0]?'<img src="https://cdn.simpleicons.org/'+b[0]+'" alt="'+b[1]+'" loading="lazy">':'<b class="dc-txt">'+b[1]+'</b>')+'</div>'}).join("");
+  pts.innerHTML=m.map(function(_,i){return '<i data-i="'+i+'"></i>'}).join("");
+  var cards=palco.children,dots=pts.children;
+  function render(){
+    for(var i=0;i<N;i++){
+      var d=((i-at)%N+N)%N;if(d>N/2)d-=N;
+      cards[i].className="dc-card "+(d===0?"p0":d===1?"p1":d===-1?"n1":d===2?"p2":d===-2?"n2":"oc");
+      dots[i].className=i===at?"at":"";
+    }
+    nome.textContent=m[at][1];
+  }
+  function ir(i){at=(i+N)%N;render()}
+  function auto(){clearInterval(t);t=setInterval(function(){ir(at+1)},3000)}
+  palco.addEventListener("click",function(e){var c=e.target.closest(".dc-card");if(c)ir(+c.dataset.i)});
+  pts.addEventListener("click",function(e){if(e.target.dataset.i)ir(+e.target.dataset.i)});
+  sec.querySelectorAll(".dc-seta").forEach(function(b){b.onclick=function(){ir(at+ +b.dataset.d)}});
+  sec.addEventListener("mouseenter",function(){clearInterval(t)});
+  sec.addEventListener("mouseleave",auto);
+  render();auto();
+})();
 </script>
 </body>
 </html>
